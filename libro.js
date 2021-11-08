@@ -17,51 +17,17 @@ $(function () {
                 $bttn_next.show();
                 $bttn_prev.show();
                 $mybook.show().booklet({
-                    name: null,                            //  
-                    width: 900,                             //ancho  
-                    height: 700,                             //alto
-                    speed: 600,                             //  
-                    direction: 'LTR',                           //  
-                    //  
-                    next: $bttn_next,          			//  
-                    prev: $bttn_prev,          			//  
-
+                    name: null,                   
+                    width: 900,      
+                    height: 700,                        
+                    speed: 700,                    
+                    direction: 'LTR',    
+                    next: $bttn_next,    
+                    prev: $bttn_prev,          	
                 });
                 Cufon.refresh();
             }
         }).attr('src', source);
     });
 
-});
-
-const boton1 = document.querySelector(".boton1");
-const boton2 = document.querySelector(".boton2");
-const sombra = document.querySelector(".sombra");
-
-const esconderSombra = () => {
-    let contador = 0.5;
-    var intervalo;
-    setTimeout(() => {
-        intervalo = setInterval(() => {
-            if (contador > 0) {
-                sombra.style.opacity = `${contador -= 0.1}`;
-            }
-        }, 10);
-    }, 300);
-
-    setTimeout(() => {
-        clearInterval(intervalo);
-        let intervalo2 = setInterval(() => {
-            if (contador < 0.5) {
-                sombra.style.opacity = `${contador += 0.05}`;
-            }
-        }, 10);
-    }, 550);
-}
-
-boton1.addEventListener("click", () => {
-    esconderSombra();
-});
-boton2.addEventListener("click", () => {
-    esconderSombra();
 });

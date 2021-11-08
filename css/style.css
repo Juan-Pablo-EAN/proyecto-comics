@@ -123,9 +123,9 @@ a#prev_page_button:hover {
     position: absolute;
     background-image: url(../booklet/images/shadow.png);
     left: 0;
-    z-index: 20;
+    z-index: 11;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.5;
-    background-size: 10% 100%;
+    opacity: 0.1;
+    background-size: 7% 100%;
 }
