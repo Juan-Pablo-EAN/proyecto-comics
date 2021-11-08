@@ -23,7 +23,7 @@ const evaluarLR = d => {
         return "L";
     }
 }
-
+ 
 const ponerPaginas = nombre => {
     contenedor.innerHTML = `
     <div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 100%; color: white;">
