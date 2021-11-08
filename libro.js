@@ -33,3 +33,21 @@ $(function () {
     });
 
 });
+
+const boton1 = document.querySelector(".boton1");
+const boton2 = document.querySelector(".boton2");
+const sombra = document.querySelector(".sombra");
+
+const esconderSombra = () => {
+    sombra.style.opacity = "0";
+    setTimeout(() => {
+        sombra.style.opacity = "0.5";
+    }, 600);
+}
+
+boton1.addEventListener("click", () => {
+    esconderSombra();
+});
+boton2.addEventListener("click", () => {
+    esconderSombra();
+});
