@@ -39,10 +39,24 @@ const boton2 = document.querySelector(".boton2");
 const sombra = document.querySelector(".sombra");
 
 const esconderSombra = () => {
-    sombra.style.opacity = "0";
+    let contador = 0.5;
+    var intervalo;
     setTimeout(() => {
-        sombra.style.opacity = "0.5";
-    }, 600);
+        intervalo = setInterval(() => {
+            if (contador > 0) {
+                sombra.style.opacity = `${contador -= 0.1}`;
+            }
+        }, 10);
+    }, 300);
+
+    setTimeout(() => {
+        clearInterval(intervalo);
+        let intervalo2 = setInterval(() => {
+            if (contador < 0.5) {
+                sombra.style.opacity = `${contador += 0.05}`;
+            }
+        }, 10);
+    }, 550);
 }
 
 boton1.addEventListener("click", () => {
