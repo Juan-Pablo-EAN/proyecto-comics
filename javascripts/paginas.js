@@ -43,4 +43,13 @@ const ponerPaginas = nombre => {
 
 }
 
-ponerPaginas("Chevy");
+const obtenerNombre = () => {
+    let enlace = location.href;
+    let ubicacion = enlace.indexOf("?");
+    enlace = enlace.substring(ubicacion + 1, enlace.length);
+    console.log(enlace);
+    // ponerPaginas(enlace);
+    ponerPaginas("Chevy")
+}
+
+obtenerNombre();
