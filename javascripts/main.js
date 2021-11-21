@@ -56,4 +56,13 @@ const ponerPortadas = () => {
     });
 }
 
+const imgFondo = document.querySelector(".fondo");
+
+const efectoFodo = () => {
+    window.addEventListener("scroll", () => {
+        imgFondo.style.backgroundPositionY = `${(window.scrollY / 7) - 150}px`;
+    });
+}
+
+efectoFodo();
 ponerPortadas();
