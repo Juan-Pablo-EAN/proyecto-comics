@@ -60,7 +60,9 @@ const imgFondo = document.querySelector(".fondo");
 
 const efectoFodo = () => {
     window.addEventListener("scroll", () => {
-        imgFondo.style.backgroundPositionY = `${(window.scrollY / 7) - 150}px`;
+        if(window.screen.width > 600){
+            imgFondo.style.backgroundPositionY = `${(window.scrollY / 7) - 150}px`;
+        }
     });
 }
 

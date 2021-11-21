@@ -5,7 +5,7 @@ body {
     background: #282645;
 }
 
-header {
+.fondo {
     display: flex;
     width: 100%;
     height: 550px;
@@ -15,9 +15,21 @@ header {
     background-size: cover;
     background-attachment: fixed;
     align-items: center;
+        
+    /* background-size: contain;
+    height: 200px;
+    background-position-y:0px; */
+} 
+
+@media screen and (max-width: 1115px) {
+    .fondo {
+        background-size: cover;
+        height: 450px;
+        /* background-position-y:0px; */
+    }
 }
 
-header nav {
+header .barraSuperior {
     width: 100%;
     font-size: xx-large;
     color: white;
@@ -26,6 +38,45 @@ header nav {
     font-weight: bold;
     text-align: center;
     font-size: 70px;
+    /* font-size: 200%; */
+}
+
+@media screen and (max-width: 600px) {
+    .fondo {
+        background-size: contain;
+        height: 200px;
+        background-position-y:0px;
+        background-attachment: fixed;
+    }
+    header .barraSuperior {
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .fondo {
+        height: 150px;
+    }
+}
+
+header nav {
+    padding: 15px;
+    background-color: white;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 section {
@@ -84,3 +135,4 @@ section {
     background-size: cover;
     color: white;
 }
+
