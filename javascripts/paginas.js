@@ -59,3 +59,11 @@ const mq = matchMedia("(min-width:550px");
 mq.addEventListener("change", () => {
     document.querySelector(".girar").style.display = "none";
 });
+
+window.addEventListener("load", () => {
+    if(window.screen.availWidth < 550){
+        document.querySelector(".girar").style.display = "block";
+    } else {
+        document.querySelector(".girar").style.display = "none";
+    }
+});
