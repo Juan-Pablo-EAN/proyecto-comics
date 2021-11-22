@@ -71,7 +71,7 @@ body {
     position: relative;
     /* background: transparent url(../images/bg.png) no-repeat 9px 27px; */
     padding-top: 10px;
-    position: absolute;
+    position: fixed;
     top: 100px;
 }
 
@@ -151,6 +151,6 @@ a#prev_page_button:hover {
         position: absolute;
     }
     body {
-        overflow-x: hidden;
+        overflow: hidden;
     }
 }
