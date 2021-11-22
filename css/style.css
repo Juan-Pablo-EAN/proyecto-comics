@@ -5,7 +5,7 @@
 
 body {
     /* background: #282645; */
-    background: #553e8d;
+    background: #282645;
     color: #444;
     font-size: 12px;
     color: #333;
@@ -71,8 +71,6 @@ body {
     position: relative;
     /* background: transparent url(../images/bg.png) no-repeat 9px 27px; */
     padding-top: 10px;
-    position: fixed;
-    top: 100px;
 }
 
 .book_wrapper img {
@@ -153,4 +151,35 @@ a#prev_page_button:hover {
     body {
         overflow: hidden;
     }
+}
+
+.girar {
+    padding: 50px 0 10px 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.girar img {
+    width: 20%;
+    padding: 2%;
+    transform: rotate(90deg);
+    animation: girar 2s infinite;
+}
+
+.girar .texto {
+    font-size: 50px;
+    padding: 15px;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(90deg);
+    } 100% {
+        transform: rotate(0);
+    }
+}
+
+footer {
+    margin-top: 70px;
 }
