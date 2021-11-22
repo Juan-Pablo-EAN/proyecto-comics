@@ -7,6 +7,6 @@ barras.addEventListener("click", () => {
         barras.style.color = "white";
     } else {
         navBarr.className = "visible";
-        barras.style.color = "#282645";
+        barras.style.color = "#706bb9";
     }
 });

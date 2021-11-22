@@ -61,6 +61,7 @@ nav ul li a:active {
         display: flex;
     }
     header nav {
+        transform: scale(0);
         position: absolute;
         top: 45px;
         right: 15px;
@@ -81,12 +82,10 @@ nav ul li a:active {
 }
 
 .visible {
-    /* display: block; */
     transform: scale(1);
 }
 
 .invisible {
-    /* display: none; */
     transform: scale(0);
 }
 
@@ -98,6 +97,7 @@ footer {
 footer .contenedorF {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
 }
 
 .contenedorF div {
@@ -108,6 +108,10 @@ footer .contenedorF {
 
 footer .imagen .logo {
     width: 50%;
+}
+
+footer ul {
+    padding: 0;
 }
 
 footer .contacto {
