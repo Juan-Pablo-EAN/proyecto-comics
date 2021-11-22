@@ -71,7 +71,6 @@ body {
     position: relative;
     /* background: transparent url(../images/bg.png) no-repeat 9px 27px; */
     padding-top: 10px;
-    margin-top: 50px;
 }
 
 .book_wrapper img {
@@ -143,4 +142,10 @@ a#prev_page_button:hover {
     background-position: right;
     opacity: 0.7;
     background-size: 7% 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .book_wrapper {
+        transform: rotate(90deg);
+    }
 }

@@ -53,3 +53,9 @@ const obtenerNombre = () => {
 }
 
 obtenerNombre();
+
+const mq = matchMedia("(max-width:600px");
+
+mq.addEventListener("change", () => {
+    document.getElementById(".libro").style.transform = "rotate(90deg)";
+});

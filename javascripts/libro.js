@@ -29,8 +29,8 @@ $(function () {
                 } else {
                     $mybook.show().booklet({
                         name: null,                   
-                        width: 1550,      
-                        height: 1100,                        
+                        width: 1350,      
+                        height: 940,                        
                         speed: 700,                    
                         direction: 'LTR',    
                         next: $bttn_next,    
