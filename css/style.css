@@ -146,6 +146,9 @@ a#prev_page_button:hover {
 
 @media screen and (max-width: 600px) {
     .book_wrapper {
-        transform: rotate(90deg);
+        position: absolute;
+    }
+    body {
+        overflow-x: hidden;
     }
 }
