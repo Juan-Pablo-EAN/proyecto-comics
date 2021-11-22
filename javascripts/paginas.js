@@ -54,7 +54,7 @@ const obtenerNombre = () => {
 
 obtenerNombre();
 
-const mq = matchMedia("(max-width:550px");
+const mq = matchMedia("(min-width:550px");
 
 mq.addEventListener("change", () => {
     document.querySelector(".girar").style.display = "none";

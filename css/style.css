@@ -10,7 +10,6 @@ body {
     font-size: 12px;
     color: #333;
     font-family: 'Comic Neue', cursive;
-    overflow: hidden;
 }
 
 
@@ -25,7 +24,6 @@ body {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    position: fixed;
 }
 
 .booklet .b-wrap-left {
@@ -160,6 +158,13 @@ a#prev_page_button:hover {
     width: 100%;
     text-align: center;
     color: white;
+    display: none;
+}
+
+@media screen and (max-width:550px) {
+    .girar {
+        display: block;
+    }
 }
 
 .girar img {
