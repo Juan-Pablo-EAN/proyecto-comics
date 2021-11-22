@@ -16,15 +16,27 @@ $(function () {
                 $loading.hide();
                 $bttn_next.show();
                 $bttn_prev.show();
-                $mybook.show().booklet({
-                    name: null,
-                    width: 900,
-                    height: 700,
-                    speed: 700,
-                    direction: 'LTR',
-                    next: $bttn_next,
-                    prev: $bttn_prev,
-                });
+                if(window.screen.availWidth > 600){
+                    $mybook.show().booklet({
+                        name: null,                   
+                        width: 900,      
+                        height: 700,                        
+                        speed: 700,                    
+                        direction: 'LTR',    
+                        next: $bttn_next,    
+                        prev: $bttn_prev,          	
+                    });
+                } else {
+                    $mybook.show().booklet({
+                        name: null,                   
+                        width: 1400,      
+                        height: 1000,                        
+                        speed: 700,                    
+                        direction: 'LTR',    
+                        next: $bttn_next,    
+                        prev: $bttn_prev,          	
+                    });
+                }
                 Cufon.refresh();
             }
         }).attr('src', source);
