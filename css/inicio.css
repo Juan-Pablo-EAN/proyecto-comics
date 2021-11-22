@@ -3,6 +3,7 @@ body {
     padding: 0;
     /* background: #553e8d; */
     background: #282645;
+    font-family: 'Comic Neue', cursive;
 }
 
 .fondo {
@@ -34,49 +35,10 @@ header .barraSuperior {
     font-size: xx-large;
     color: white;
     text-shadow: 2px 2px 5px black;
-    font-family: cursive;
     font-weight: bold;
     text-align: center;
     font-size: 70px;
     /* font-size: 200%; */
-}
-
-@media screen and (max-width: 600px) {
-    .fondo {
-        background-size: contain;
-        height: 200px;
-        background-position-y:0px;
-        background-attachment: fixed;
-    }
-    header .barraSuperior {
-        font-size: 200%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .fondo {
-        height: 150px;
-    }
-}
-
-header nav {
-    padding: 15px;
-    background-color: white;
-}
-
-header nav ul {
-    margin: 0;
-    padding: 0;
-    display: grid;
-    list-style: none;
-    grid-template-columns: repeat(4, 1fr); 
-    grid-gap: 10px;
-}
-
-nav ul li {
-    margin: 0;
-    padding: 0;
-    text-align: center;
 }
 
 section {
@@ -124,7 +86,6 @@ section {
 
 .contenido .titulo {
     text-align: center;
-    font-family: cursive;
     font-size: x-large;
     text-decoration: unset;
     color: black;
@@ -136,3 +97,6 @@ section {
     color: white;
 }
 
+section {
+    padding-bottom: 50px;
+}

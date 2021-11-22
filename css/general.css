@@ -1,0 +1,145 @@
+header nav {
+    padding: 15px;
+    background-color: #e27628;
+    color: white;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px;
+    height: 25px;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+    font-size: larger;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+}
+
+nav ul li a:hover {
+    color: #282645;
+    font-size: x-large;
+}
+
+nav ul li a:active {
+    color: white;
+}
+
+.barras {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:600px) {
+    .barras {
+        display: flex;
+    }
+    header nav {
+        position: absolute;
+        top: 45px;
+        right: 15px;
+        width: 90%;
+        height: auto;
+        padding: 15px 0 15px 0;
+        border-radius: 7px;
+        transition: all 0.2s ease;
+    }
+    header nav ul {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 20px);
+    }
+    nav ul li {
+        width: 100%;
+    }
+}
+
+.visible {
+    /* display: block; */
+    transform: scale(1);
+}
+
+.invisible {
+    /* display: none; */
+    transform: scale(0);
+}
+
+footer {
+    background: #e27628;
+    color: white;
+}
+
+footer .contenedorF {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contenedorF div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .imagen .logo {
+    width: 50%;
+}
+
+footer .contacto {
+    flex-wrap: wrap;
+}
+
+footer .contacto .titulo {
+    font-size: larger;
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer .contacto ul{
+    width: 100%;
+    list-style: none;
+}
+
+footer li {
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+footer a:hover {
+    color: #282645;
+}
+
+footer a:active {
+    color: white;
+}
