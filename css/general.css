@@ -3,6 +3,7 @@ header nav {
     background-color: #e27628;
     color: white;
     z-index: 1000;
+    transition: all 0.3s all;
 }
 
 header nav ul {
