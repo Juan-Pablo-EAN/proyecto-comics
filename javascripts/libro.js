@@ -25,7 +25,7 @@ $(function () {
                     next: $bttn_next,
                     prev: $bttn_prev,
                 });
-                Cufon.refresh();
+                // Cufon.refresh();
             }
         }).attr('src', source);
     });

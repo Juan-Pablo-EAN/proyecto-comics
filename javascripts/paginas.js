@@ -66,4 +66,39 @@ window.addEventListener("load", () => {
     } else {
         document.querySelector(".girar").style.display = "none";
     }
+    if(window.screen.availWidth < 600){
+        const navBarr = document.getElementById("navBarr");
+        const listaNav = document.getElementById("listaNav");
+        const barras = document.querySelector(".barras");
+
+        barras.style.display = "flex";
+        navBarr.style.transform = "scale(0)";
+        navBarr.style.position = "absolute";
+        navBarr.style.top = "45px";
+        navBarr.style.right = "15px";
+        navBarr.style.width = "90%";
+        navBarr.style.height = "auto";
+        navBarr.style.padding = "15px 0 15px 0";
+        navBarr.style.borderRadius = "7px";
+        navBarr.style.transition = "all 0.2s ease";
+        listaNav.style.height = "auto";
+        listaNav.style.gridTemplateColumns = "1fr";
+        listaNav.style.gridTemplateRows = "repeat(4, 20px)";
+        listaNav.style.gridGap = "40px";
+        listaNav.style.fontSize = "30px";
+        listaNav.style.padding = "20px"
+
+        let visible = false;
+        barras.addEventListener("click", () => {
+            if(visible){
+                navBarr.style.transform = "scale(0)";
+                barras.style.color = "white";
+                visible = false;
+            } else {
+                navBarr.style.transform = "scale(1)";
+                barras.style.color = "#706bb9";
+                visible = true;
+            }
+        });
+    } 
 });
