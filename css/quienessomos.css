@@ -1,0 +1,134 @@
+body {
+    /* background: #282645; */
+    background: #282645;
+    font-family: 'Comic Neue', cursive;
+    padding: 0 5% 0 5%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-gap: 20px;
+}
+
+header .logoHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logoHeader img {
+    width: 100%;
+}
+
+header .barraNav {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    width: 100%;
+    background-color: transparent;
+}
+
+header nav ul li a {
+    color: #e27628;
+    font-size: x-large;
+    padding: 7px;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #e27628;
+}
+
+@media screen and (max-width:890px) {
+    header {
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 200px;
+    }
+    header nav ul li a {
+        font-size: larger;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header nav {
+        background-color: #e27628;
+    }
+    header nav ul li a {
+        color: white;
+    }
+}
+
+section {
+    display: flex;
+}
+
+section .texto {
+    width: 35%;
+    color: #e27628;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .texto h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+section .texto p {
+    font-size: larger;
+}
+
+section .imagen {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .imagen img {
+    width: 100%;
+}
+
+footer .contenedorF {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.contenedorF {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contenedorF ul {
+    list-style: none;
+}
+
+footer {
+    background: transparent;
+    border-top: 4px dashed #e27628;
+}
+
+.contenedorF div {
+    border-right: 4px dashed #e27628;
+}
+
+footer .verComics {
+    border: none;
+}
+
+footer a {
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+footer a:hover {
+    background-color: #e27628;
+    font-weight: bold;
+}
