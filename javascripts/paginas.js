@@ -23,7 +23,7 @@ const evaluarLR = d => {
         return "L";
     }
 }
- 
+
 const ponerPaginas = nombre => {
     contenedor.innerHTML = `
     <div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 100%; color: white;">
@@ -60,13 +60,25 @@ mq.addEventListener("change", () => {
     document.querySelector(".girar").style.display = "none";
 });
 
+const esconderCel = () => {
+    window.addEventListener("scroll", () => {
+        if (window.screen.availWidth > 550) {
+            document.querySelector(".girar").style.display = "none";
+            console.log("?")
+        }
+    });
+}
+
 window.addEventListener("load", () => {
-    if(window.screen.availWidth < 550){
+    if (window.screen.availWidth < 550) {
         document.querySelector(".girar").style.display = "block";
+        console.log("!")
     } else {
         document.querySelector(".girar").style.display = "none";
+        console.log("?")
     }
-    if(window.screen.availWidth < 600){
+    esconderCel();
+    if (window.screen.availWidth < 600) {
         const navBarr = document.getElementById("navBarr");
         const listaNav = document.getElementById("listaNav");
         const barras = document.querySelector(".barras");
@@ -90,7 +102,7 @@ window.addEventListener("load", () => {
 
         let visible = false;
         barras.addEventListener("click", () => {
-            if(visible){
+            if (visible) {
                 navBarr.style.transform = "scale(0)";
                 barras.style.color = "white";
                 visible = false;
@@ -100,5 +112,5 @@ window.addEventListener("load", () => {
                 visible = true;
             }
         });
-    } 
+    }
 });
