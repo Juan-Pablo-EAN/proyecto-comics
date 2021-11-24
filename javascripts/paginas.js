@@ -61,11 +61,17 @@ mq.addEventListener("change", () => {
     location.reload();
 });
 
+const navBarr = document.getElementById("navBarr");
+const listaNav = document.getElementById("listaNav");
+const barras = document.querySelector(".barras");
+
 const esconderCel = () => {
     window.addEventListener("scroll", () => {
         if (window.screen.availWidth > 550) {
             document.querySelector(".girar").style.display = "none";
             navBarr.style.top = "65px";
+            barras.style.top = "15px";
+            barras.style.zIndex = "500";
         }
     })
 }
@@ -78,10 +84,6 @@ window.addEventListener("load", () => {
     }
     esconderCel();
     if (window.screen.availWidth < 600) {
-        const navBarr = document.getElementById("navBarr");
-        const listaNav = document.getElementById("listaNav");
-        const barras = document.querySelector(".barras");
-
         barras.style.display = "flex";
         navBarr.style.transform = "scale(0)";
         navBarr.style.position = "absolute";
@@ -102,7 +104,7 @@ window.addEventListener("load", () => {
         barras.style.top = "50px";
         navBarr.style.top = "100px";
         document.querySelector(".contenedorF").style.fontSize = "x-large";
-        for(let i = 0; i < listaNav.childElementCount; i++){
+        for (let i = 0; i < listaNav.childElementCount; i++) {
             listaNav.children[i].children[0].style.fontSize = "40px"
         }
         document.querySelector(".contenedorF").style.fontSize = "xx-large";
