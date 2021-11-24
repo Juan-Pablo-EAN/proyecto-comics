@@ -72,6 +72,11 @@ const esconderGif = () => {
 
 window.addEventListener("load", () => {
     //esconderGif();
+    if(window.screen.availWidth < 550){
+        document.querySelector(".girar").style.display = "block";
+    } else {
+        document.querySelector(".girar").style.display = "none";
+    }
     if(window.screen.availWidth < 600){
         const navBarr = document.getElementById("navBarr");
         const listaNav = document.getElementById("listaNav");
