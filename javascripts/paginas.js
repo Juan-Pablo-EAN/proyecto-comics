@@ -58,13 +58,13 @@ const mq = matchMedia("(min-width:550px");
 
 mq.addEventListener("change", () => {
     document.querySelector(".girar").style.display = "none";
+    location.reload();
 });
 
 const esconderCel = () => {
     window.addEventListener("scroll", () => {
         if (window.screen.availWidth > 550) {
             document.querySelector(".girar").style.display = "none";
-            console.log("?")
         }
     });
 }
@@ -72,10 +72,8 @@ const esconderCel = () => {
 window.addEventListener("load", () => {
     if (window.screen.availWidth < 550) {
         document.querySelector(".girar").style.display = "block";
-        console.log("!")
     } else {
         document.querySelector(".girar").style.display = "none";
-        console.log("?")
     }
     esconderCel();
     if (window.screen.availWidth < 600) {
