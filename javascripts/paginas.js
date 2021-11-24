@@ -65,8 +65,9 @@ const esconderCel = () => {
     window.addEventListener("scroll", () => {
         if (window.screen.availWidth > 550) {
             document.querySelector(".girar").style.display = "none";
+            navBarr.style.top = "65px";
         }
-    });
+    })
 }
 
 window.addEventListener("load", () => {
