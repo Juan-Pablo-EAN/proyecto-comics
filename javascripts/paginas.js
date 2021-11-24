@@ -71,7 +71,7 @@ const esconderGif = () => {
 }
 
 window.addEventListener("load", () => {
-    esconderGif();
+    //esconderGif();
     if(window.screen.availWidth < 600){
         const navBarr = document.getElementById("navBarr");
         const listaNav = document.getElementById("listaNav");
