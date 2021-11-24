@@ -64,5 +64,11 @@ const efectoFodo = () => {
     });
 }
 
+window.addEventListener("scroll", () => {
+    if(window.scrollY > window.screen.height - 400){
+        document.querySelector(".flecha").style.display = "none";
+    }
+});
+
 efectoFodo();
 ponerPortadas();

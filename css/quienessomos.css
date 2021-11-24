@@ -132,6 +132,14 @@ footer a:hover {
     font-weight: bold;
 }
 
+footer .verComics a {
+    font-size: 30px;
+}
+
+footer .verComics a:hover {
+    font-size: 35px;
+}
+
 @media screen and (max-width:600px) {
     header {
         grid-template-rows: 200px;
