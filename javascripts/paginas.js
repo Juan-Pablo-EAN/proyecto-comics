@@ -95,8 +95,16 @@ window.addEventListener("load", () => {
         listaNav.style.gridTemplateColumns = "1fr";
         listaNav.style.gridTemplateRows = "repeat(4, 20px)";
         listaNav.style.gridGap = "40px";
-        listaNav.style.fontSize = "30px";
-        listaNav.style.padding = "20px"
+        listaNav.style.fontSize = "100px";
+        listaNav.style.padding = "20px";
+        barras.style.fontSize = "50px";
+        barras.style.top = "50px";
+        navBarr.style.top = "100px";
+        document.querySelector(".contenedorF").style.fontSize = "x-large";
+        for(let i = 0; i < listaNav.childElementCount; i++){
+            listaNav.children[i].children[0].style.fontSize = "40px"
+        }
+        document.querySelector(".contenedorF").style.fontSize = "xx-large";
 
         let visible = false;
         barras.addEventListener("click", () => {
