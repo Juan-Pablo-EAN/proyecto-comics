@@ -118,6 +118,14 @@ a#prev_page_button:hover {
     border-left: 1px dashed gray;
 }
 
+body header nav ul li a {
+    font-size: large;
+}
+
+body footer div ul li a {
+    font-size: large;
+}
+
 .sombraL {
     width: 100%;
     height: 700px;

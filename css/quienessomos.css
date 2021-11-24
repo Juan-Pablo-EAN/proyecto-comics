@@ -135,7 +135,6 @@ footer a:hover {
 @media screen and (max-width:600px) {
     header {
         grid-template-rows: 200px;
-        /* padding-bottom: 50px; */
     }
     header nav {
         background-color: #e27628;
