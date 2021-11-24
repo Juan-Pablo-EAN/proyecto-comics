@@ -60,18 +60,7 @@ mq.addEventListener("change", () => {
     document.querySelector(".girar").style.display = "none";
 });
 
-const esconderGif = () => {
-    window.addEventListener("scroll", () => {
-        if(window.screen.availWidth < 550){
-            document.querySelector(".girar").style.display = "block";
-        } else {
-            document.querySelector(".girar").style.display = "none";
-        }
-    });
-}
-
 window.addEventListener("load", () => {
-    //esconderGif();
     if(window.screen.availWidth < 550){
         document.querySelector(".girar").style.display = "block";
     } else {
@@ -83,8 +72,6 @@ window.addEventListener("load", () => {
         const barras = document.querySelector(".barras");
 
         barras.style.display = "flex";
-        barras.style.fontSize = "50px";
-        barras.style.top = "20px";
         navBarr.style.transform = "scale(0)";
         navBarr.style.position = "absolute";
         navBarr.style.top = "45px";
@@ -100,8 +87,7 @@ window.addEventListener("load", () => {
         listaNav.style.gridGap = "40px";
         listaNav.style.fontSize = "30px";
         listaNav.style.padding = "20px"
-        document.querySelector(".contenedorF").style.fontSize = "x-large";
-        document.querySelector(".seccion").style.marginTop = "60px";
+
         let visible = false;
         barras.addEventListener("click", () => {
             if(visible){
