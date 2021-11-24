@@ -2,12 +2,16 @@ body {
     /* background: #282645; */
     background: #282645;
     font-family: 'Comic Neue', cursive;
+    background: linear-gradient(to left top, black,  #1f1e36, #553e8d);
+}
+
+header, section, footer {
     padding: 0 5% 0 5%;
 }
 
 header {
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 0.5fr 1fr;
     grid-gap: 20px;
 }
 
@@ -43,6 +47,12 @@ header nav ul li a:hover {
     background-color: #e27628;
 }
 
+@media screen and (max-width:1115px) {
+    header nav ul li a {
+        font-size: large;
+    }
+}
+
 @media screen and (max-width:890px) {
     header {
         grid-template-columns: 1fr;
@@ -53,17 +63,9 @@ header nav ul li a:hover {
     }
 }
 
-@media screen and (max-width:600px) {
-    header nav {
-        background-color: #e27628;
-    }
-    header nav ul li a {
-        color: white;
-    }
-}
-
 section {
     display: flex;
+    padding-bottom: 70px;
 }
 
 section .texto {
@@ -91,17 +93,12 @@ section .imagen {
 }
 
 section .imagen img {
-    width: 100%;
+    width: 80%;
 }
 
 footer .contenedorF {
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
-}
-
-.contenedorF {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     text-align: center;
 }
 
@@ -110,6 +107,8 @@ footer .contenedorF {
 }
 
 footer {
+    padding: 0;
+    margin: 0 5% 0 5%;
     background: transparent;
     border-top: 4px dashed #e27628;
 }
@@ -131,4 +130,34 @@ footer a {
 footer a:hover {
     background-color: #e27628;
     font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+    header {
+        grid-template-rows: 200px;
+        /* padding-bottom: 50px; */
+    }
+    header nav {
+        background-color: #e27628;
+    }
+    header nav ul li a {
+        color: white;
+    }
+    section {
+        flex-wrap: wrap;
+    }
+    section .texto, section .imagen {
+        width: 100%;
+    }
+    footer .contenedorF {
+        grid-template-columns: 1fr 1fr;
+    }
+    footer .contenedorF div {
+        border-right: 4px dashed #e27628;
+        border-top: 4px dashed #e27628;
+    }
+    footer {
+        border: none;
+        margin: 0;
+    }
 }
