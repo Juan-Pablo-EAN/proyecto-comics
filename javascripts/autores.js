@@ -63,7 +63,7 @@ const crearHtml = async () => {
 }
 
 const consulta = async () => {
-    return fetch("../autores.json")
+    return fetch("../baseDeDatos/autores.json")
         .then(res => res.json())
         .then(info => info);
 }

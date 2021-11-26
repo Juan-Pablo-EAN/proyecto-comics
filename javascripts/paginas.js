@@ -33,7 +33,8 @@ const ponerPaginas = nombre => {
 
     for (let i = 1; i <= 6; i++) {
         crearPaginas(i, evaluarLR(i), nombre);
-    }
+    } //este for es el que debo cambia por uno que se repita segun las paginas del comic
+    //ya esta hecho el JSON de los comics solo falta consumirlo y usa la funcion crearPaginas
 
     contenedor.innerHTML += `
     <div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 100%; color: white;">

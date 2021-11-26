@@ -1,0 +1,114 @@
+{
+    "comics": [
+        {
+            "nombre": "Chevy",
+            "titulo": "Nombre del comic",
+            "paginas": [
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://"
+            ]
+        }, {
+            "nombre": "Autor2",
+            "titulo": "Nombre del comic",
+            "paginas": [
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://"
+            ]
+        }, 
+        {
+            "nombre": "Autor3",
+            "titulo": "Nombre del comic",
+            "paginas": [
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://"
+            ]
+        }, {
+            "nombre": "Autor4",
+            "titulo": "Nombre del comic",
+            "paginas": [
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://"
+            ]
+        }, {
+            "nombre": "Autor5",
+            "titulo": "Nombre del comic",
+            "paginas": [
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://"
+            ]
+        }, {
+            "nombre": "Autor6",
+            "titulo": "Nombre del comic",
+            "paginas": [
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://"
+            ]
+        }, {
+            "nombre": "Autor7",
+            "titulo": "Nombre del comic",
+            "paginas": [
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://"
+            ]
+        }, {
+            "nombre": "Autor8",
+            "titulo": "Nombre del comic",
+            "paginas": [
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://"
+            ]
+        }, {
+            "nombre": "Autor9",
+            "titulo": "Nombre del comic",
+            "paginas": [
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://",
+                "https://"
+            ]
+        }
+    ]
+}
