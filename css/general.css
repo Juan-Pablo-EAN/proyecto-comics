@@ -27,12 +27,11 @@ body::-webkit-scrollbar-track {
 
 @font-face {
     font-family: "FuenteComic";
-    src: url("fuentes/GosmickSans.ttf");
+    src: url("fuentes/Ventura_Edding_Bold.otf");
   }
 
 body {
     font-family: "fuenteComic"
-    /* font-family: 'Comic Neue', cursive; */
 }
 
 header nav {
