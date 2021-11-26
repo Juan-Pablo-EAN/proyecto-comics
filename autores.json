@@ -1,0 +1,212 @@
+{
+    "autores": [
+        {
+            "nombre": "Sebastian",
+            "imagen": "images/user-default.png",
+            "alias": "Chevy",
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "contacto": [
+                {
+                    "tipo": "Correo",
+                    "correo": "chevy@hotmail.com"
+                },
+                {
+                    "tipo": "Instagram",
+                    "instagram": "chevy123"
+                },
+                {
+                    "tipo": "Sitio web",
+                    "web": "www.chevy.com"
+                }
+            ]
+        },
+        {
+            "nombre": "autor1",
+            "imagen": "images/user-default.png",
+            "alias": "autor",
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "contacto": [
+                {
+                    "tipo": "Correo",
+                    "correo": "chevy@hotmail.com"
+                },
+                {
+                    "tipo": "Instagram",
+                    "instagram": "chevy123"
+                },
+                {
+                    "tipo": "Sitio web",
+                    "web": "www.chevy.com"
+                }
+            ]
+        },
+        {
+            "nombre": "autor1",
+            "imagen": "images/user-default.png",
+            "alias": "autor",
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "contacto": [
+                {
+                    "tipo": "Correo",
+                    "correo": "chevy@hotmail.com"
+                },
+                {
+                    "tipo": "Instagram",
+                    "instagram": "chevy123"
+                },
+                {
+                    "tipo": "Sitio web",
+                    "web": "www.chevy.com"
+                },
+                {
+                    "tipo": "Teléfono",
+                    "telefono": "3211231231"
+                }
+            ]
+        },
+        {
+            "nombre": "autor1",
+            "imagen": "images/user-default.png",
+            "alias": "autor",
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "contacto": [
+                {
+                    "tipo": "Correo",
+                    "correo": "chevy@hotmail.com"
+                },
+                {
+                    "tipo": "Instagram",
+                    "instagram": "chevy123"
+                },
+                {
+                    "tipo": "Sitio web",
+                    "web": "www.chevy.com"
+                },
+                {
+                    "tipo": "Teléfono",
+                    "telefono": "3211231231"
+                }
+            ]
+        },
+        {
+            "nombre": "autor1",
+            "imagen": "images/user-default.png",
+            "alias": "autor",
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "contacto": [
+                {
+                    "tipo": "Correo",
+                    "correo": "chevy@hotmail.com"
+                },
+                {
+                    "tipo": "Instagram",
+                    "instagram": "chevy123"
+                },
+                {
+                    "tipo": "Sitio web",
+                    "web": "www.chevy.com"
+                },
+                {
+                    "tipo": "Teléfono",
+                    "telefono": "3211231231"
+                }
+            ]
+        },
+        {
+            "nombre": "autor1",
+            "imagen": "images/user-default.png",
+            "alias": "autor",
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "contacto": [
+                {
+                    "tipo": "Correo",
+                    "correo": "chevy@hotmail.com"
+                },
+                {
+                    "tipo": "Instagram",
+                    "instagram": "chevy123"
+                },
+                {
+                    "tipo": "Sitio web",
+                    "web": "www.chevy.com"
+                },
+                {
+                    "tipo": "Teléfono",
+                    "telefono": "3211231231"
+                }
+            ]
+        },
+        {
+            "nombre": "autor1",
+            "imagen": "images/user-default.png",
+            "alias": "autor",
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "contacto": [
+                {
+                    "tipo": "Correo",
+                    "correo": "chevy@hotmail.com"
+                },
+                {
+                    "tipo": "Instagram",
+                    "instagram": "chevy123"
+                },
+                {
+                    "tipo": "Sitio web",
+                    "web": "www.chevy.com"
+                },
+                {
+                    "tipo": "Teléfono",
+                    "telefono": "3211231231"
+                }
+            ]
+        },
+        {
+            "nombre": "autor1",
+            "imagen": "images/user-default.png",
+            "alias": "autor",
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "contacto": [
+                {
+                    "tipo": "Correo",
+                    "correo": "chevy@hotmail.com"
+                },
+                {
+                    "tipo": "Instagram",
+                    "instagram": "chevy123"
+                },
+                {
+                    "tipo": "Sitio web",
+                    "web": "www.chevy.com"
+                },
+                {
+                    "tipo": "Teléfono",
+                    "telefono": "3211231231"
+                }
+            ]
+        },
+        {
+            "nombre": "autor1",
+            "imagen": "images/user-default.png",
+            "alias": "autor",
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "contacto": [
+                {
+                    "tipo": "Correo",
+                    "correo": "chevy@hotmail.com"
+                },
+                {
+                    "tipo": "Instagram",
+                    "instagram": "chevy123"
+                },
+                {
+                    "tipo": "Sitio web",
+                    "web": "www.chevy.com"
+                },
+                {
+                    "tipo": "Teléfono",
+                    "telefono": "3211231231"
+                }
+            ]
+        }
+    ]
+}
