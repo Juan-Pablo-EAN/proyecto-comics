@@ -21,42 +21,42 @@
             ]
         },
         {
-            "nombre": "autor1",
+            "nombre": "autor2",
             "imagen": "images/user-default.png",
             "alias": "autor",
             "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "chevy@hotmail.com"
+                    "correo": "autor@hotmail.com"
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "chevy123"
+                    "instagram": "autor123"
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.chevy.com"
+                    "web": "www.autor.com"
                 }
             ]
         },
         {
-            "nombre": "autor1",
+            "nombre": "autor3",
             "imagen": "images/user-default.png",
             "alias": "autor",
             "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "chevy@hotmail.com"
+                    "correo": "autor@hotmail.com"
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "chevy123"
+                    "instagram": "autor123"
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.chevy.com"
+                    "web": "www.autor.com"
                 },
                 {
                     "tipo": "Teléfono",
@@ -65,22 +65,22 @@
             ]
         },
         {
-            "nombre": "autor1",
+            "nombre": "autor4",
             "imagen": "images/user-default.png",
             "alias": "autor",
             "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "chevy@hotmail.com"
+                    "correo": "autor@hotmail.com"
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "chevy123"
+                    "instagram": "autor123"
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.chevy.com"
+                    "web": "www.autor.com"
                 },
                 {
                     "tipo": "Teléfono",
@@ -89,22 +89,22 @@
             ]
         },
         {
-            "nombre": "autor1",
+            "nombre": "autor5",
             "imagen": "images/user-default.png",
             "alias": "autor",
             "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "chevy@hotmail.com"
+                    "correo": "autor@hotmail.com"
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "chevy123"
+                    "instagram": "autor123"
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.chevy.com"
+                    "web": "www.autor.com"
                 },
                 {
                     "tipo": "Teléfono",
@@ -113,22 +113,22 @@
             ]
         },
         {
-            "nombre": "autor1",
+            "nombre": "autor6",
             "imagen": "images/user-default.png",
             "alias": "autor",
             "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "chevy@hotmail.com"
+                    "correo": "autor@hotmail.com"
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "chevy123"
+                    "instagram": "autor123"
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.chevy.com"
+                    "web": "www.autor.com"
                 },
                 {
                     "tipo": "Teléfono",
@@ -137,22 +137,22 @@
             ]
         },
         {
-            "nombre": "autor1",
+            "nombre": "autor7",
             "imagen": "images/user-default.png",
             "alias": "autor",
             "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "chevy@hotmail.com"
+                    "correo": "autor@hotmail.com"
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "chevy123"
+                    "instagram": "autor123"
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.chevy.com"
+                    "web": "www.autor.com"
                 },
                 {
                     "tipo": "Teléfono",
@@ -161,22 +161,22 @@
             ]
         },
         {
-            "nombre": "autor1",
+            "nombre": "autor8",
             "imagen": "images/user-default.png",
             "alias": "autor",
             "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "chevy@hotmail.com"
+                    "correo": "autor@hotmail.com"
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "chevy123"
+                    "instagram": "autor123"
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.chevy.com"
+                    "web": "www.autor.com"
                 },
                 {
                     "tipo": "Teléfono",
@@ -185,22 +185,22 @@
             ]
         },
         {
-            "nombre": "autor1",
+            "nombre": "autor9",
             "imagen": "images/user-default.png",
             "alias": "autor",
             "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "chevy@hotmail.com"
+                    "correo": "autor@hotmail.com"
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "chevy123"
+                    "instagram": "autor123"
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.chevy.com"
+                    "web": "www.autor.com"
                 },
                 {
                     "tipo": "Teléfono",

@@ -25,6 +25,16 @@ body::-webkit-scrollbar-track {
     border-radius: 10px;  
 }
 
+@font-face {
+    font-family: "FuenteComic";
+    src: url("fuentes/GosmickSans.ttf");
+  }
+
+body {
+    font-family: "fuenteComic"
+    /* font-family: 'Comic Neue', cursive; */
+}
+
 header nav {
     padding: 15px;
     background-color: #e27628;

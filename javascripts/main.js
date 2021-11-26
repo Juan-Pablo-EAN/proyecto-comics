@@ -24,6 +24,15 @@ const autores = [
     }, {
         nombre: "6",
         comic: "Titulo Comic 6"
+    }, {
+        nombre: "7",
+        comic: "Titulo Comic 7"
+    }, {
+        nombre: "8",
+        comic: "Titulo Comic 8"
+    }, {
+        nombre: "9",
+        comic: "Titulo Comic 9"
     }
 ];
 

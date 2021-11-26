@@ -1,7 +1,6 @@
 body {
     /* background: #282645; */
     background: #282645;
-    font-family: 'Comic Neue', cursive;
     background: linear-gradient(to left top, black,  #1f1e36, #553e8d);
 }
 
@@ -10,6 +9,7 @@ header, section, footer {
 }
 
 header {
+    padding-top: 30px;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     grid-gap: 20px;
@@ -23,6 +23,7 @@ header .logoHeader {
 
 header .logoHeader img {
     width: 100%;
+    filter: invert(1);
 }
 
 header .barraNav {
@@ -138,6 +139,10 @@ footer .verComics a {
 
 footer .verComics a:hover {
     font-size: 35px;
+}
+
+footer img {
+    filter: invert(1);
 }
 
 @media screen and (max-width:600px) {
