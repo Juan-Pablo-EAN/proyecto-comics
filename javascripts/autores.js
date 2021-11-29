@@ -20,7 +20,7 @@ const crearHtml = async () => {
         imagen.setAttribute("title", `Imagen de ${autor.nombre}`);
         divImagen.appendChild(imagen);
         liName.innerHTML = `<i class="${iconoNombre()}"></i> ${autor.nombre}`;
-        liAlias.innerHTML = `<i class="${iconoAlias()}"></i> ${autor.alias}`;
+        liAlias.innerHTML = `<i class="${iconoAlias()}"></i> Alias: ${autor.alias}`;
         liInfo.innerHTML = `<i class="${iconoInfo()}"></i> ${autor.info}`;
         ul.appendChild(liName);
         ul.appendChild(liAlias);
@@ -36,13 +36,15 @@ const crearHtml = async () => {
                     ul.appendChild(li);
                     break;
                 case "Instagram":
-                    a.setAttribute("href", `${contact.instagram}`);
+                    a.setAttribute("href", `${contact.enlace}`);
+                    a.setAttribute("target", "_blank");
                     a.innerHTML = `<i class="${iconoInsta()}"></i> ${contact.instagram}`;
                     li.appendChild(a);
                     ul.appendChild(li);
                     break;
                 case "Sitio web":
-                    a.setAttribute("href", `${contact.web}`);
+                    a.setAttribute("href", `${contact.enlace}`);
+                    a.setAttribute("target", "_blank");
                     a.innerHTML = `<i class="${iconoWeb()}"></i> ${contact.web}`;
                     li.appendChild(a);
                     ul.appendChild(li);

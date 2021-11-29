@@ -17,8 +17,16 @@ section .contenedor .autor {
     border-radius: 7px;
 }
 
+/* section .contenedor .autor .imagen {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+
 section .contenedor .autor img {
     width: 100%;
+    /* width: 70%; */
+    /* border-radius: 100px; */
 }
 
 section .contenedor .autor .datos ul {

@@ -1,22 +1,19 @@
 {
     "autores": [
         {
-            "nombre": "Sebastian",
-            "imagen": "images/user-default.png",
+            "nombre": "Sebastián Sánchez Rodríguez ",
+            "imagen": "https://lh3.googleusercontent.com/pw/AM-JKLU8rbWqn76JK46zDWN9oHbZ4Q4hRYM2WwlSNmCJRgIO0WgNfQUvF3pknPcgqXylCcMeAy9C2pPqgVfXDrpqyc4uFXb2avVT0DfjUCD-nKZeXwYdwvAedR2w6dTAT7tsO73kvpP5NP6NKMJaTYvaff0=w420-h629-no?authuser=0",
             "alias": "Chevy",
-            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "info": " Estudiante de licenciatura en filosofía, 20 años",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "chevy@hotmail.com"
+                    "correo": "chevyxd925@gmail.com"
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "chevy123"
-                },
-                {
-                    "tipo": "Sitio web",
-                    "web": "www.chevy.com"
+                    "instagram": "Sebassanchez228",
+                    "enlace": "https://www.instagram.com/sebassanchez228/"
                 }
             ]
         },
@@ -32,11 +29,13 @@
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "autor123"
+                    "instagram": "autor123",
+                    "enlace": ""
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.autor.com"
+                    "web": "www.autor.com",
+                    "enlace": ""
                 }
             ]
         },
@@ -52,11 +51,13 @@
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "autor123"
+                    "instagram": "autor123",
+                    "enlace": ""
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.autor.com"
+                    "web": "www.autor.com",
+                    "enlace": ""
                 },
                 {
                     "tipo": "Teléfono",
@@ -76,11 +77,13 @@
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "autor123"
+                    "instagram": "autor123",
+                    "enlace": ""
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.autor.com"
+                    "web": "www.autor.com",
+                    "enlace": ""
                 },
                 {
                     "tipo": "Teléfono",
@@ -100,11 +103,13 @@
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "autor123"
+                    "instagram": "autor123",
+                    "enlace": ""
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.autor.com"
+                    "web": "www.autor.com",
+                    "enlace": ""
                 },
                 {
                     "tipo": "Teléfono",
@@ -124,11 +129,13 @@
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "autor123"
+                    "instagram": "autor123",
+                    "enlace": ""
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.autor.com"
+                    "web": "www.autor.com",
+                    "enlace": ""
                 },
                 {
                     "tipo": "Teléfono",
@@ -148,11 +155,13 @@
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "autor123"
+                    "instagram": "autor123",
+                    "enlace": ""
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.autor.com"
+                    "web": "www.autor.com",
+                    "enlace": ""
                 },
                 {
                     "tipo": "Teléfono",
@@ -172,11 +181,13 @@
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "autor123"
+                    "instagram": "autor123",
+                    "enlace": ""
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.autor.com"
+                    "web": "www.autor.com",
+                    "enlace": ""
                 },
                 {
                     "tipo": "Teléfono",
@@ -196,11 +207,13 @@
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "autor123"
+                    "instagram": "autor123",
+                    "enlace": ""
                 },
                 {
                     "tipo": "Sitio web",
-                    "web": "www.autor.com"
+                    "web": "www.autor.com",
+                    "enlace": ""
                 },
                 {
                     "tipo": "Teléfono",
