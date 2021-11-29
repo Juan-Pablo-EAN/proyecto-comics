@@ -31,7 +31,7 @@ body::-webkit-scrollbar-track {
   }
 
 body {
-    font-family: "fuenteComic"
+    font-family: "fuenteComic";
 }
 
 header nav {

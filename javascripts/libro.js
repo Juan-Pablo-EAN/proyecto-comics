@@ -1,5 +1,6 @@
 $(function () {
-    var $mybook = $('#mybook');
+    setTimeout(() => {
+        var $mybook = $('#mybook');
     var $bttn_next = $('#next_page_button');
     var $bttn_prev = $('#prev_page_button');
     var $loading = $('#loading');
@@ -29,5 +30,6 @@ $(function () {
             }
         }).attr('src', source);
     });
-
+    $(".loading").css("display", "none");
+    }, 1500);
 });

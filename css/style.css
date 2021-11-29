@@ -198,3 +198,14 @@ body footer div ul li a {
 footer {
     margin-top: 70px;
 }
+
+.loading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.loading img {
+    width: 300px;
+    margin-top: 50px;
+}

@@ -1,42 +1,8 @@
 "use strict";
 
 const contenedor = document.querySelector(".contenedor");
-const autores = [
-    {
-        nombre: "1",
-        comic: "Titulo Comic 1"
-    },
-    {
-        nombre: "2",
-        comic: "Titulo Comic 2"
-    },
-    {
-        nombre: "3",
-        comic: "Titulo Comic 3"
-    },
-    {
-        nombre: "4",
-        comic: "Titulo Comic 4"
-    },
-    {
-        nombre: "5",
-        comic: "Titulo Comic 5"
-    }, {
-        nombre: "6",
-        comic: "Titulo Comic 6"
-    }, {
-        nombre: "7",
-        comic: "Titulo Comic 7"
-    }, {
-        nombre: "8",
-        comic: "Titulo Comic 8"
-    }, {
-        nombre: "9",
-        comic: "Titulo Comic 9"
-    }
-];
 
-const crearPortadas = (nombre, titulo) => {
+const crearPortadas = (nombre, titulo, portada) => {
     const a = document.createElement("A");
     const contenido = document.createElement("DIV");
     const divImagen = document.createElement("DIV");
@@ -48,7 +14,7 @@ const crearPortadas = (nombre, titulo) => {
     divImagen.classList.add("divImagen");
     divTitulo.classList.add("titulo");
     a.setAttribute("href", `comic.html?${nombre}`);
-    imagen.setAttribute("src", `portadas/portada${nombre}.jpg`);
+    imagen.setAttribute("src", `${portada}`);
     imagen.setAttribute("alt", `Portada de ${titulo}`);
     span.textContent = titulo;
     divTitulo.appendChild(span);
@@ -59,9 +25,10 @@ const crearPortadas = (nombre, titulo) => {
     contenedor.appendChild(a);
 }
 
-const ponerPortadas = () => {
-    autores.map(autor => {
-        crearPortadas(autor.nombre, autor.comic);
+const ponerPortadas = async () => {
+    const datos = await consultar();
+    datos.comics.map(autor => {
+        crearPortadas(autor.nombre, autor.titulo, autor.paginas[0]);
     });
 }
 
@@ -73,8 +40,14 @@ const efectoFodo = () => {
     });
 }
 
+const consultar = async () => {
+    return fetch("../baseDeDatos/comics.json")
+        .then(res => res.json())
+        .then(info => info);
+}
+
 window.addEventListener("scroll", () => {
-    if(window.scrollY > window.screen.height - 400){
+    if (window.scrollY > window.screen.height - 400) {
         document.querySelector(".flecha").style.display = "none";
     }
 });

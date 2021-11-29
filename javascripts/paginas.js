@@ -1,14 +1,14 @@
 const contenedor = document.getElementById("contenedor");
 
-const crearPaginas = (n, direction, autor) => {
+const crearPaginas = (pagina, direction, autor) => {
     const div = document.createElement("DIV");
     const sombra = document.createElement("DIV");
     const img = document.createElement("IMG");
 
     div.classList.add("divImagen");
     sombra.classList.add(`sombra${direction}`);
-    img.setAttribute("src", `comic${autor}/page${n}.jpg`);
-    img.setAttribute("alt", `Imagen del comic`);
+    img.setAttribute("src", `${pagina}`);
+    img.setAttribute("alt", `Imagen del comic de ${autor}`);
 
     div.appendChild(sombra);
     div.appendChild(img);
@@ -24,17 +24,21 @@ const evaluarLR = d => {
     }
 }
 
-const ponerPaginas = nombre => {
+const ponerPaginas = async author => {
     contenedor.innerHTML = `
     <div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 100%; color: white;">
 		<h1>Has click en los botones para pasar de página</h1>
 	</div>
     `;
+    const inform = await obtenerInfo();
 
-    for (let i = 1; i <= 6; i++) {
-        crearPaginas(i, evaluarLR(i), nombre);
-    } //este for es el que debo cambia por uno que se repita segun las paginas del comic
-    //ya esta hecho el JSON de los comics solo falta consumirlo y usa la funcion crearPaginas
+    inform.comics.map(comic => {
+        if(comic.nombre === author){
+            for (let i = 1; i <= comic.paginas.length; i++) {
+                crearPaginas(comic.paginas[i - 1], evaluarLR(i), author);
+            }
+        } 
+    });
 
     contenedor.innerHTML += `
     <div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 100%; color: white;">
@@ -44,13 +48,17 @@ const ponerPaginas = nombre => {
 
 }
 
+const obtenerInfo = async () => {
+    return fetch("../baseDeDatos/comics.json")
+        .then(res => res.json())
+        .then(info => info);
+}
+
 const obtenerNombre = () => {
     let enlace = location.href;
     let ubicacion = enlace.indexOf("?");
     enlace = enlace.substring(ubicacion + 1, enlace.length);
-    console.log(enlace);
-    // ponerPaginas(enlace);
-    ponerPaginas("Chevy")
+    ponerPaginas(enlace);
 }
 
 obtenerNombre();
@@ -62,17 +70,17 @@ mq.addEventListener("change", () => {
     location.reload();
 });
 
-const navBarr = document.getElementById("navBarr");
+const navBarr1 = document.getElementById("navBarr");
 const listaNav = document.getElementById("listaNav");
-const barras = document.querySelector(".barras");
+const barras1 = document.querySelector(".barras");
 
 const esconderCel = () => {
     window.addEventListener("scroll", () => {
         if (window.screen.availWidth > 550) {
             document.querySelector(".girar").style.display = "none";
-            navBarr.style.top = "65px";
-            barras.style.top = "15px";
-            barras.style.zIndex = "500";
+            navBarr1.style.top = "65px";
+            barras1.style.top = "15px";
+            barras1.style.zIndex = "500";
         }
     })
 }
@@ -85,25 +93,25 @@ window.addEventListener("load", () => {
     }
     esconderCel();
     if (window.screen.availWidth < 600) {
-        barras.style.display = "flex";
-        navBarr.style.transform = "scale(0)";
-        navBarr.style.position = "absolute";
-        navBarr.style.top = "45px";
-        navBarr.style.right = "15px";
-        navBarr.style.width = "90%";
-        navBarr.style.height = "auto";
-        navBarr.style.padding = "15px 0 15px 0";
-        navBarr.style.borderRadius = "7px";
-        navBarr.style.transition = "all 0.2s ease";
+        barras1.style.display = "flex";
+        navBarr1.style.transform = "scale(0)";
+        navBarr1.style.position = "absolute";
+        navBarr1.style.top = "45px";
+        navBarr1.style.right = "15px";
+        navBarr1.style.width = "90%";
+        navBarr1.style.height = "auto";
+        navBarr1.style.padding = "15px 0 15px 0";
+        navBarr1.style.borderRadius = "7px";
+        navBarr1.style.transition = "all 0.2s ease";
         listaNav.style.height = "auto";
         listaNav.style.gridTemplateColumns = "1fr";
         listaNav.style.gridTemplateRows = "repeat(4, 20px)";
         listaNav.style.gridGap = "40px";
         listaNav.style.fontSize = "100px";
         listaNav.style.padding = "20px";
-        barras.style.fontSize = "50px";
-        barras.style.top = "50px";
-        navBarr.style.top = "100px";
+        barras1.style.fontSize = "50px";
+        barras1.style.top = "50px";
+        navBarr1.style.top = "100px";
         document.querySelector(".contenedorF").style.fontSize = "x-large";
         for (let i = 0; i < listaNav.childElementCount; i++) {
             listaNav.children[i].children[0].style.fontSize = "40px"
@@ -111,14 +119,14 @@ window.addEventListener("load", () => {
         document.querySelector(".contenedorF").style.fontSize = "xx-large";
 
         let visible = false;
-        barras.addEventListener("click", () => {
+        barras1.addEventListener("click", () => {
             if (visible) {
-                navBarr.style.transform = "scale(0)";
-                barras.style.color = "white";
+                navBarr1.style.transform = "scale(0)";
+                barras1.style.color = "white";
                 visible = false;
             } else {
-                navBarr.style.transform = "scale(1)";
-                barras.style.color = "#706bb9";
+                navBarr1.style.transform = "scale(1)";
+                barras1.style.color = "#706bb9";
                 visible = true;
             }
         });
