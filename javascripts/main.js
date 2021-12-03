@@ -56,8 +56,14 @@ const input = document.getElementById("busqueda");
 const f404 = document.querySelector(".f404");
 const textoB = document.querySelector(".textoB");
 
+let info2;
+
+input.addEventListener("click", async () => {
+    info2 = await consultar();
+});
+
 input.addEventListener("keypress", e => {
-    if(e.key == "Enter"){
+    if (e.key == "Enter") {
         contenedor.innerHTML = "";
         busqueda(input.value);
     }
@@ -67,13 +73,12 @@ const busqueda = async texto => {
     texto.toLowerCase();
     let title = "";
     let conResult = false;
-    const info2 = await consultar();
     info2.comics.map(com => {
         title = com.titulo.toLowerCase();
-        if(title.includes(texto)){
+        if (title.includes(texto)) {
             crearPortadas(com.nombre, com.titulo, com.paginas[0]);
             conResult = true;
-        } 
+        }
     });
     (conResult) ? f404.style.display = "none" : f404.style.display = "flex", ponerNombre(texto);
 }
