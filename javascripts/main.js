@@ -69,7 +69,7 @@ input.addEventListener("keypress", e => {
     }
 });
 
-const busqueda = async texto => {
+const busqueda = texto => {
     texto.toLowerCase();
     let title = "";
     let conResult = false;
@@ -88,7 +88,7 @@ const ponerNombre = name => {
 }
 
 document.getElementById("recargar").addEventListener("click", () => {
-    location.reload();
+    ponerPortadas();
 });
 
 efectoFodo();
