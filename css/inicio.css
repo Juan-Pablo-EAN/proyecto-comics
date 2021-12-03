@@ -122,4 +122,71 @@ section {
 
 section {
     padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.divInput {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.divInput .fondoInput {
+    width: 100%;
+    height: 30px;
+    max-width: 600px;
+    background: white;
+    padding: 5px 10px 5px 15px;
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.divInput .fondoInput #busqueda {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    font-size: larger;
+    font-family: "fuenteComic";
+    letter-spacing: 1px;
+}
+
+.divInput .opciones {
+    width: 100%;
+    max-width: 600px;
+}
+
+.divInput .opciones .lista {
+    list-style: none;
+    padding: 0;
+}
+
+.f404 {
+    color: white;
+    margin-top: 50px;
+    /* display: flex; */
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.f404 h1 {
+    width: 100%;
+}
+
+.f404 button {
+    width: auto;
+    font-family: "fuenteComic";
+    height: 40px;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;   
 }

@@ -52,5 +52,33 @@ window.addEventListener("scroll", () => {
     }
 });
 
+const input = document.getElementById("busqueda");
+const f404 = document.querySelector(".f404");
+
+input.addEventListener("keypress", e => {
+    if(e.key == "Enter"){
+        contenedor.innerHTML = "";
+        busqueda(input.value);
+    }
+});
+
+const busqueda = async texto => {
+    texto.toLowerCase();
+    let title = "";
+    let conResult = false;
+    const info2 = await consultar();
+    info2.comics.map(com => {
+        title = com.titulo.toLowerCase();
+        console.log(title);
+        console.log(texto);
+        console.log(title.includes(texto))
+        if(title.includes(texto)){
+            crearPortadas(com.nombre, com.titulo, com.paginas[0]);
+            conResult = true;
+        } 
+    });
+    (conResult) ? f404.style.display = "none" : f404.style.display = "flex";
+}
+
 efectoFodo();
 ponerPortadas();
