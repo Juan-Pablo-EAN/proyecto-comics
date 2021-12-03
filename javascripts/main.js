@@ -82,5 +82,9 @@ const ponerNombre = name => {
     textoB.textContent = name;
 }
 
+document.getElementById("recargar").addEventListener("click", () => {
+    location.reload();
+});
+
 efectoFodo();
 ponerPortadas();

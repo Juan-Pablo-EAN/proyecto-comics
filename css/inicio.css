@@ -41,13 +41,6 @@ body {
     }
 }
 
-@media screen and (max-width: 1115px) {
-    .fondo {
-        background-size: cover;
-        height: 450px;
-    }
-}
-
 header .barraSuperior {
     width: 100%;
     font-size: xx-large;
@@ -195,4 +188,14 @@ section {
     cursor: pointer;
     border-radius: 5px;
     outline: none;   
+}
+
+@media screen and (max-width: 1115px) {
+    .fondo {
+        background-size: cover;
+        height: 450px;
+    }
+    .fondo .flecha {
+        display:  none;
+    }
 }
