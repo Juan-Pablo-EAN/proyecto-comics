@@ -54,6 +54,7 @@ window.addEventListener("scroll", () => {
 
 const input = document.getElementById("busqueda");
 const f404 = document.querySelector(".f404");
+const textoB = document.querySelector(".textoB");
 
 input.addEventListener("keypress", e => {
     if(e.key == "Enter"){
@@ -69,15 +70,16 @@ const busqueda = async texto => {
     const info2 = await consultar();
     info2.comics.map(com => {
         title = com.titulo.toLowerCase();
-        console.log(title);
-        console.log(texto);
-        console.log(title.includes(texto))
         if(title.includes(texto)){
             crearPortadas(com.nombre, com.titulo, com.paginas[0]);
             conResult = true;
         } 
     });
-    (conResult) ? f404.style.display = "none" : f404.style.display = "flex";
+    (conResult) ? f404.style.display = "none" : f404.style.display = "flex", ponerNombre(texto);
+}
+
+const ponerNombre = name => {
+    textoB.textContent = name;
 }
 
 efectoFodo();

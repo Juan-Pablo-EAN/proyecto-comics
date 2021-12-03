@@ -78,6 +78,12 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 40px;
     padding-top: 50px;
+    transition: all 0.2s ease;
+    justify-content: center;
+}
+
+.contenedor .contenido {
+    max-width: 400px;
 }
 
 @media screen and (max-width:870px) {
