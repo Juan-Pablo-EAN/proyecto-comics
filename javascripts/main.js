@@ -73,14 +73,29 @@ const busqueda = texto => {
     texto.toLowerCase();
     let title = "";
     let conResult = false;
-    info2.comics.map(com => {
-        title = com.titulo.toLowerCase();
+    for(let j = 0; j < info2.comics.length; j++){
+        title = info2.comics[j].titulo.toLowerCase();
         if (title.includes(texto)) {
             conResult = true;
-            crearPortadas(com.nombre, com.titulo, com.paginas[0]);
+            crearPortadas(info2.comics[j].nombre, info2.comics[j].titulo, info2.comics[j].paginas[0]);
         }
-    });
-    (conResult) ? f404.style.display = "none" : f404.style.display = "flex", ponerNombre(texto);
+    }
+
+    if(conResult){
+        f404.style.display = "none";
+    } else {
+        f404.style.display = "flex";
+        ponerNombre(texto);
+    }
+    // info2.comics.map(com => {
+    //     title = com.titulo.toLowerCase();
+    //     if (title.includes(texto)) {
+    //         conResult = true;
+    //         crearPortadas(com.nombre, com.titulo, com.paginas[0]);
+    //     }
+    // });
+    
+    // (conResult) ? f404.style.display = "none" : f404.style.display = "flex", ponerNombre(texto);
 }
 
 const ponerNombre = name => {
