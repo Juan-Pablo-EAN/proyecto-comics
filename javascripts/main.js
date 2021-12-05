@@ -76,8 +76,8 @@ const busqueda = texto => {
     info2.comics.map(com => {
         title = com.titulo.toLowerCase();
         if (title.includes(texto)) {
-            crearPortadas(com.nombre, com.titulo, com.paginas[0]);
             conResult = true;
+            crearPortadas(com.nombre, com.titulo, com.paginas[0]);
         }
     });
     (conResult) ? f404.style.display = "none" : f404.style.display = "flex", ponerNombre(texto);
