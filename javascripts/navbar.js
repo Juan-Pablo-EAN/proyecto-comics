@@ -13,7 +13,7 @@ barras.addEventListener("click", () => {
 
 let alto = navBarr.offsetTop;
 window.addEventListener("scroll", () => {
-    if (location.href.includes("quienessomos") === false && location.href.includes("comic") === false) {
+    if (location.href.includes("quienessomos") === false && location.href.includes("comic.html") === false) {
         if (window.screen.availWidth > 600) {
             if (window.scrollY >= alto) {
                 navBarr.style.position = "fixed";
