@@ -81,6 +81,10 @@ body {
     padding: 0px;
 }
 
+.loading, #gifCarga {
+    height: auto !important;
+}
+
 a#next_page_button,
 a#prev_page_button {
     display: none;
