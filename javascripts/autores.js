@@ -20,7 +20,8 @@ const crearHtml = async () => {
         imagen.setAttribute("title", `Imagen de ${autor.nombre}`);
         divImagen.appendChild(imagen);
         liName.innerHTML = `<i class="${iconoNombre()}"></i> ${autor.nombre}`;
-        liAlias.innerHTML = `<i class="${iconoAlias()}"></i> Alias: ${autor.alias}`;
+        autor.alias !== "" ? liAlias.innerHTML = `<i class="${iconoAlias()}"></i> Seudónimo: ${autor.alias}`
+            : liAlias.style.display = "none";
         liInfo.innerHTML = `<i class="${iconoInfo()}"></i> ${autor.info}`;
         ul.appendChild(liName);
         ul.appendChild(liAlias);
@@ -39,6 +40,20 @@ const crearHtml = async () => {
                     a.setAttribute("href", `${contact.enlace}`);
                     a.setAttribute("target", "_blank");
                     a.innerHTML = `<i class="${iconoInsta()}"></i> ${contact.instagram}`;
+                    li.appendChild(a);
+                    ul.appendChild(li);
+                    break;
+                case "TikTok":
+                    a.setAttribute("href", `${contact.enlace}`);
+                    a.setAttribute("target", "_blank");
+                    a.innerHTML = `<i class="${iconoWeb()}"></i> ${contact.tiktok}`;
+                    li.appendChild(a);
+                    ul.appendChild(li);
+                    break;
+                case "Facebook":
+                    a.setAttribute("href", `${contact.enlace}`);
+                    a.setAttribute("target", "_blank");
+                    a.innerHTML = `<i class="${iconoFB()}"></i> ${contact.facebook}`;
                     li.appendChild(a);
                     ul.appendChild(li);
                     break;
@@ -88,6 +103,10 @@ const iconoMail = () => {
 
 const iconoInsta = () => {
     return "fab fa-instagram";
+}
+
+const iconoFB = () => {
+    return "fab fa-facebook";
 }
 
 const iconoTel = () => {

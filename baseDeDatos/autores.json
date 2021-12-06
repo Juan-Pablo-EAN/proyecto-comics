@@ -18,206 +18,123 @@
             ]
         },
         {
-            "nombre": "autor2",
-            "imagen": "images/user-default.png",
-            "alias": "autor",
-            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "nombre": "María Camila Villada",
+            "imagen": "https://lh3.googleusercontent.com/pw/AM-JKLXn7oKhFePcVvYBIeWv4KdSP1xXPUyu61HN65Ic7l69zazyQjHZ2x5Y4fxHffIlDYMYw7WVE3Npl6TkEAwZLFuldCyPkzOiYNpTy5C7P5nrrcko49rMptTXUo2L4K6syEjNaCAwbWozmwmm1U-H5qVS=w472-h629-no?authuser=0",
+            "alias": "Maca",
+            "info": "Estudiante de música",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "autor@hotmail.com"
+                    "correo": "mariakmila2097@gmail.com"
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "autor123",
-                    "enlace": ""
-                },
-                {
-                    "tipo": "Sitio web",
-                    "web": "www.autor.com",
-                    "enlace": ""
+                    "instagram": "@mariacamilavilladarojas",
+                    "enlace": "https://www.instagram.com/mariacamilavilladarojas/"
                 }
             ]
         },
         {
-            "nombre": "autor3",
-            "imagen": "images/user-default.png",
-            "alias": "autor",
-            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "nombre": "Lisandro Sarmiento",
+            "imagen": "https://lh3.googleusercontent.com/pw/AM-JKLU3G66ZPH58OdZAxgGdkZC0se7BOoKMYtVBesJSctF84gR005Xu3LchMiG_gky2I_-EwLjpD8o122NIwGwY2XHOMwGxNOKKPItEM_ZoLJWCI97769L9VvBgkT4HeFTKrmUPYxjbwhgw8VTJd7iCj-F1=w504-h629-no?authuser=0",
+            "alias": "",
+            "info": "Psicólogo/Artista plástico.",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "autor@hotmail.com"
+                    "correo": "morfeo1307@gmail.com"
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "autor123",
-                    "enlace": ""
-                },
-                {
-                    "tipo": "Sitio web",
-                    "web": "www.autor.com",
-                    "enlace": ""
-                },
-                {
-                    "tipo": "Teléfono",
-                    "telefono": "3211231231"
+                    "instagram": "@ink.ronin",
+                    "enlace": "https://www.instagram.com/ink.ronin/"
                 }
             ]
         },
         {
-            "nombre": "autor4",
+            "nombre": "Dayanna Peña",
             "imagen": "images/user-default.png",
-            "alias": "autor",
-            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "alias": "Daio",
+            "info": "Autora",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "autor@hotmail.com"
+                    "correo": "dayiiispe@gmail.com"
                 },
                 {
-                    "tipo": "Instagram",
-                    "instagram": "autor123",
-                    "enlace": ""
-                },
-                {
-                    "tipo": "Sitio web",
-                    "web": "www.autor.com",
-                    "enlace": ""
-                },
-                {
-                    "tipo": "Teléfono",
-                    "telefono": "3211231231"
+                    "tipo": "TikTok",
+                    "tiktok": "@daio_24",
+                    "enlace": "https://www.tiktok.com/@daio_24?"
                 }
             ]
         },
         {
-            "nombre": "autor5",
+            "nombre": "Nicolás Gómez",
             "imagen": "images/user-default.png",
-            "alias": "autor",
-            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "alias": "Tronx-ultra",
+            "info": "Autor",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "autor@hotmail.com"
-                },
-                {
-                    "tipo": "Instagram",
-                    "instagram": "autor123",
-                    "enlace": ""
-                },
-                {
-                    "tipo": "Sitio web",
-                    "web": "www.autor.com",
-                    "enlace": ""
-                },
-                {
-                    "tipo": "Teléfono",
-                    "telefono": "3211231231"
+                    "correo": "nicolasgoma21@gmail.com"
                 }
             ]
         },
         {
-            "nombre": "autor6",
+            "nombre": "Karol Rodríguez",
             "imagen": "images/user-default.png",
-            "alias": "autor",
-            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "alias": "",
+            "info": "Autora",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "autor@hotmail.com"
-                },
-                {
-                    "tipo": "Instagram",
-                    "instagram": "autor123",
-                    "enlace": ""
-                },
-                {
-                    "tipo": "Sitio web",
-                    "web": "www.autor.com",
-                    "enlace": ""
-                },
-                {
-                    "tipo": "Teléfono",
-                    "telefono": "3211231231"
+                    "correo": "elapocoldv@gmail.com"
                 }
             ]
         },
         {
-            "nombre": "autor7",
+            "nombre": "Sebastián Achury",
             "imagen": "images/user-default.png",
-            "alias": "autor",
-            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "alias": "",
+            "info": "Estudiante de ingeniería industrial.",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "autor@hotmail.com"
+                    "correo": "achury392@gmail.com"
                 },
                 {
-                    "tipo": "Instagram",
-                    "instagram": "autor123",
-                    "enlace": ""
-                },
-                {
-                    "tipo": "Sitio web",
-                    "web": "www.autor.com",
-                    "enlace": ""
-                },
-                {
-                    "tipo": "Teléfono",
-                    "telefono": "3211231231"
+                    "tipo": "Facebook",
+                    "facebook": "Sebastian Achury",
+                    "enlace": "https://www.facebook.com/sebas.achu64"
                 }
             ]
         },
         {
-            "nombre": "autor8",
+            "nombre": "Alejandra Noa",
             "imagen": "images/user-default.png",
-            "alias": "autor",
-            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "alias": "Noa Alekei",
+            "info": "Estudiante de lingüística y literatura.",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "autor@hotmail.com"
+                    "correo": "lisa12noa@gmail.com"
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "autor123",
-                    "enlace": ""
-                },
-                {
-                    "tipo": "Sitio web",
-                    "web": "www.autor.com",
-                    "enlace": ""
-                },
-                {
-                    "tipo": "Teléfono",
-                    "telefono": "3211231231"
+                    "instagram": "@noaalekei",
+                    "enlace": "https://www.instagram.com/noaalekei/?hl=es-la"
                 }
             ]
         },
         {
-            "nombre": "autor9",
+            "nombre": "Jeison Lamprea",
             "imagen": "images/user-default.png",
-            "alias": "autor",
-            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero ad, amet natus labore nisi quos assumenda optio nobis, magni incidunt, ex tempore nihil ratione.",
+            "alias": "Jackflag",
+            "info": "Escultor/Técnico en dibujo.",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "autor@hotmail.com"
-                },
-                {
-                    "tipo": "Instagram",
-                    "instagram": "autor123",
-                    "enlace": ""
-                },
-                {
-                    "tipo": "Sitio web",
-                    "web": "www.autor.com",
-                    "enlace": ""
-                },
-                {
-                    "tipo": "Teléfono",
-                    "telefono": "3211231231"
+                    "correo": "Jeisonlamprea666@gmail.com"
                 }
             ]
         }

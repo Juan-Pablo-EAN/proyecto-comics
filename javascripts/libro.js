@@ -20,7 +20,7 @@ $(function () {
                 $mybook.show().booklet({
                     name: null,
                     width: 900,
-                    height: 700,
+                    height: 650,
                     speed: 700,
                     direction: 'LTR',
                     next: $bttn_next,

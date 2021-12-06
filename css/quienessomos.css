@@ -78,12 +78,15 @@ section .texto {
 }
 
 section .texto h1 {
-    font-size: 50px;
+    font-size: 70px;
     margin: 0;
 }
 
 section .texto p {
     font-size: larger;
+    letter-spacing: 2px;
+    line-height: 21px;
+    color: white;
 }
 
 section .imagen {

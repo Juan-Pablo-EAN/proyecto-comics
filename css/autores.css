@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(to left top, black,  #1f1e36, #322f55);
+}
+
 section .contenedor {
     width: 100%;
     display: grid;
@@ -17,16 +21,10 @@ section .contenedor .autor {
     border-radius: 7px;
 }
 
-/* section .contenedor .autor .imagen {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-} */
-
 section .contenedor .autor img {
     width: 100%;
-    /* width: 70%; */
-    /* border-radius: 100px; */
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 
 section .contenedor .autor .datos ul {
@@ -38,6 +36,8 @@ section .contenedor .autor .datos ul {
 section .contenedor .autor .datos ul li {
     margin-bottom: 10px;
     font-weight: bold;
+    font-size: larger;
+    margin-bottom: 15px;
 }
 
 section .contenedor .autor .datos ul li a {

@@ -26,7 +26,7 @@ const evaluarLR = d => {
 
 const ponerPaginas = async author => {
     contenedor.innerHTML = `
-    <div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 100%; color: white;">
+    <div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 650px; color: white; border-top-left-radius:50px; border-bottom-left-radius:50px;">
 		<h1>Has click en los botones para pasar de página</h1>
 	</div>
     `;
@@ -41,7 +41,7 @@ const ponerPaginas = async author => {
     });
 
     contenedor.innerHTML += `
-    <div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 100%; color: white;">
+    <div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 650px; color: white; border-top-right-radius:50px; border-bottom-right-radius:50px;">
 		<h1>Has llegado al final</h1>
 	</div>
     `;
@@ -58,6 +58,8 @@ const obtenerNombre = () => {
     let enlace = location.href;
     let ubicacion = enlace.indexOf("?");
     enlace = enlace.substring(ubicacion + 1, enlace.length);
+    enlace = enlace.replace(/%20/gi, " ");
+    enlace = enlace.replace(/%C3%B1/gi, "ñ");
     ponerPaginas(enlace);
 }
 
