@@ -58,19 +58,8 @@ const textoB = document.querySelector(".textoB");
 
 var info2;
 
-const hacerConsulta = async () => {
+const hacerConsulta = async texto => {
     info2 = await consultar();
-}
-
-input.addEventListener("keypress", async e => {
-    if (e.key === "Enter" && input.value !== "") {
-        contenedor.innerHTML = "";
-        await hacerConsulta();
-        busqueda(e.target.value);
-    }
-});
-
-const busqueda = texto => {
     texto.toLowerCase();
     let title = "";
     let conResult = false;
@@ -81,15 +70,24 @@ const busqueda = texto => {
             crearPortadas(com.nombre, com.titulo, com.paginas[0]);
         }
     });
-    conResult ? f404.style.display = "none" : f404.style.display = "flex", ponerNombre(texto);
+    conResult === true ? f404.style.display = "none" : f404.style.display = "flex", ponerNombre(texto);
+    alert(conResult)
 }
 
+input.addEventListener("keypress", e => {
+    if (e.key === "Enter" && input.value !== "") {
+        contenedor.innerHTML = "";
+        hacerConsulta(e.target.value);
+    }
+});
+
 const ponerNombre = name => {
-    textoB.textContent = name;
+    textoB.textContent = `"${name}"`;
 }
 
 document.getElementById("recargar").addEventListener("click", () => {
     ponerPortadas();
+    f404.style.display = "none";
 });
 
 efectoFodo();
