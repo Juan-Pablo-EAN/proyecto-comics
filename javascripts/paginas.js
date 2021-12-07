@@ -37,7 +37,7 @@ const ponerPaginas = async author => {
             for (let i = 1; i <= comic.paginas.length; i++) {
                 crearPaginas(comic.paginas[i - 1], evaluarLR(i), author);
             }
-        } 
+        }
     });
 
     contenedor.innerHTML += `
@@ -57,9 +57,11 @@ const obtenerInfo = async () => {
 const obtenerNombre = () => {
     let enlace = location.href;
     let ubicacion = enlace.indexOf("?");
-    enlace = enlace.substring(ubicacion + 1, enlace.length);
-    enlace = enlace.replace(/%20/gi, " ");
+    let hasta = enlace.indexOf("&");
+    enlace = enlace.substring(ubicacion + 1, hasta);
+    enlace = enlace.replace(/-/gi, " ");
     enlace = enlace.replace(/%C3%B1/gi, "ñ");
+    console.log(enlace)
     ponerPaginas(enlace);
 }
 
