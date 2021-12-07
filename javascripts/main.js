@@ -64,7 +64,6 @@ const hacerConsulta = async texto => {
     let conResult = false;
     info2.comics.map(com => {
         title = com.titulo.toLowerCase();
-        alert(title + "/" + texto + "/" + title.includes(texto.toLowerCase()));
         if (title.includes(texto.toLowerCase())) {
             conResult = true;
             crearPortadas(com.nombre, com.titulo, com.paginas[0]);
