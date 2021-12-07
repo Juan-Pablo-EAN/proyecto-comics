@@ -60,16 +60,15 @@ var info2;
 
 const hacerConsulta = async texto => {
     info2 = await consultar();
-    texto.toLowerCase();
     let title = "";
     let conResult = false;
     info2.comics.map(com => {
         title = com.titulo.toLowerCase();
-        alert(title + "/" + texto + "/" + title.includes(texto))
-        // if (title.includes(texto)) {
-        //     conResult = true;
-        //     crearPortadas(com.nombre, com.titulo, com.paginas[0]);
-        // }
+        alert(title + "/" + texto + "/" + title.includes(texto.toLowerCase()));
+        if (title.includes(texto.toLowerCase())) {
+            conResult = true;
+            crearPortadas(com.nombre, com.titulo, com.paginas[0]);
+        }
     });
     conResult === true ? f404.style.display = "none" : f404.style.display = "flex", ponerNombre(texto);
 }
