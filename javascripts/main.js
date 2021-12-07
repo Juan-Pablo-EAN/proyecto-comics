@@ -63,15 +63,15 @@ const hacerConsulta = async texto => {
     texto.toLowerCase();
     let title = "";
     let conResult = false;
-    info2.comics.map(com => {
-        title = com.titulo.toLowerCase();
-        if (title.includes(texto)) {
-            conResult = true;
-            crearPortadas(com.nombre, com.titulo, com.paginas[0]);
-        }
-    });
+    alert(info2.comics[0].titulo);
+    // info2.comics.map(com => {
+    //     title = com.titulo.toLowerCase();
+    //     if (title.includes(texto)) {
+    //         conResult = true;
+    //         crearPortadas(com.nombre, com.titulo, com.paginas[0]);
+    //     }
+    // });
     conResult === true ? f404.style.display = "none" : f404.style.display = "flex", ponerNombre(texto);
-    alert(conResult)
 }
 
 input.addEventListener("keypress", e => {
