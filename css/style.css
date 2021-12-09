@@ -8,8 +8,10 @@ body {
     padding: 0;
 }
 
-body, header, nav {
-    width: 907px;
+@media screen and (max-width:907px) {
+    body, header, nav {
+        width: 907px;
+    }
 }
 
 #mybook {
@@ -185,12 +187,12 @@ body footer div ul li a {
     }
 }
 
-.girar img {
+/* .girar img {
     width: 20%;
-    padding: 3%;
+    padding: 2%;
     transform: rotate(90deg);
     animation: girar 2s infinite;
-}
+} */
 
 .girar .texto {
     font-size: 50px;
@@ -218,4 +220,14 @@ footer {
 .loading img {
     width: 300px;
     margin-top: 50px;
+}
+
+.instrucciones {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.instrucciones h1 {
+    width: 100%;
 }

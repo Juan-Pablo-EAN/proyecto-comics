@@ -19,7 +19,7 @@ $(function () {
                 $bttn_prev.show();
                 $mybook.show().booklet({
                     name: null,
-                    width: 900,
+                    width: 910,
                     height: 650,
                     speed: 700,
                     direction: 'LTR',
