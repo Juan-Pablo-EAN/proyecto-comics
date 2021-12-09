@@ -89,50 +89,50 @@ const esconderCel = () => {
     })
 }
 
-window.addEventListener("load", () => {
-    if (window.screen.availWidth < 550) {
-        document.querySelector(".girar").style.display = "block";
-    } else {
-        document.querySelector(".girar").style.display = "none";
-    }
-    esconderCel();
-    if (window.screen.availWidth < 600) {
-        barras1.style.display = "flex";
-        navBarr1.style.transform = "scale(0)";
-        navBarr1.style.position = "absolute";
-        navBarr1.style.top = "45px";
-        navBarr1.style.right = "15px";
-        navBarr1.style.width = "90%";
-        navBarr1.style.height = "auto";
-        navBarr1.style.padding = "15px 0 15px 0";
-        navBarr1.style.borderRadius = "7px";
-        navBarr1.style.transition = "all 0.2s ease";
-        listaNav.style.height = "auto";
-        listaNav.style.gridTemplateColumns = "1fr";
-        listaNav.style.gridTemplateRows = "repeat(4, 20px)";
-        listaNav.style.gridGap = "40px";
-        listaNav.style.fontSize = "100px";
-        listaNav.style.padding = "20px";
-        barras1.style.fontSize = "50px";
-        barras1.style.top = "50px";
-        navBarr1.style.top = "100px";
-        document.querySelector(".contenedorF").style.fontSize = "x-large";
-        for (let i = 0; i < listaNav.childElementCount; i++) {
-            listaNav.children[i].children[0].style.fontSize = "40px"
-        }
-        document.querySelector(".contenedorF").style.fontSize = "xx-large";
+// window.addEventListener("load", () => {
+//     if (window.screen.availWidth < 550) {
+//         document.querySelector(".girar").style.display = "block";
+//     } else {
+//         document.querySelector(".girar").style.display = "none";
+//     }
+//     esconderCel();
+//     if (window.screen.availWidth < 600) {
+//         barras1.style.display = "flex";
+//         navBarr1.style.transform = "scale(0)";
+//         navBarr1.style.position = "absolute";
+//         navBarr1.style.top = "45px";
+//         navBarr1.style.right = "15px";
+//         navBarr1.style.width = "90%";
+//         navBarr1.style.height = "auto";
+//         navBarr1.style.padding = "15px 0 15px 0";
+//         navBarr1.style.borderRadius = "7px";
+//         navBarr1.style.transition = "all 0.2s ease";
+//         listaNav.style.height = "auto";
+//         listaNav.style.gridTemplateColumns = "1fr";
+//         listaNav.style.gridTemplateRows = "repeat(4, 20px)";
+//         listaNav.style.gridGap = "40px";
+//         listaNav.style.fontSize = "100px";
+//         listaNav.style.padding = "20px";
+//         barras1.style.fontSize = "50px";
+//         barras1.style.top = "50px";
+//         navBarr1.style.top = "100px";
+//         document.querySelector(".contenedorF").style.fontSize = "x-large";
+//         for (let i = 0; i < listaNav.childElementCount; i++) {
+//             listaNav.children[i].children[0].style.fontSize = "40px"
+//         }
+//         document.querySelector(".contenedorF").style.fontSize = "xx-large";
 
-        let visible = false;
-        barras1.addEventListener("click", () => {
-            if (visible) {
-                navBarr1.style.transform = "scale(0)";
-                barras1.style.color = "white";
-                visible = false;
-            } else {
-                navBarr1.style.transform = "scale(1)";
-                barras1.style.color = "#706bb9";
-                visible = true;
-            }
-        });
-    }
-});
+//         let visible = false;
+//         barras1.addEventListener("click", () => {
+//             if (visible) {
+//                 navBarr1.style.transform = "scale(0)";
+//                 barras1.style.color = "white";
+//                 visible = false;
+//             } else {
+//                 navBarr1.style.transform = "scale(1)";
+//                 barras1.style.color = "#706bb9";
+//                 visible = true;
+//             }
+//         });
+//     }
+// });
