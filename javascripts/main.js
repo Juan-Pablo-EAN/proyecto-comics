@@ -64,6 +64,8 @@ const hacerConsulta = async texto => {
     let conResult = false;
     info2.comics.map(com => {
         title = com.titulo.toLowerCase();
+        title = title.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        texto = texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
         if (title.includes(texto.toLowerCase())) {
             conResult = true;
             crearPortadas(com.nombre, com.titulo, com.paginas[0]);

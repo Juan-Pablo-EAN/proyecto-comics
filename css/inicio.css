@@ -34,6 +34,11 @@ section {
     width: 100%; max-width: 95%; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 40px; padding-top: 50px; transition: all 0.2s ease; justify-content: center;
 }
 
+.contenedor .comic {
+    display: flex;
+    justify-content: center;
+}
+
 .contenedor .contenido {
     max-width: 400px;
 }
@@ -89,7 +94,7 @@ section {
 }
 
 .f404 {
-    color: white; margin-top: 50px; display: none; flex-wrap: wrap; justify-content: center; text-align: center;
+    width: 100%; color: white; margin-top: 50px; display: none; flex-wrap: wrap; justify-content: center; text-align: center;
 }
 
 .f404 h1 {
