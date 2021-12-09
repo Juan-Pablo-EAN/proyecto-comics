@@ -12,6 +12,7 @@ section .contenedor {
 
 section .contenedor .autor {
     background-color: white; border-radius: 7px;
+    height: 100%;
 }
 
 section .contenedor .autor img {
