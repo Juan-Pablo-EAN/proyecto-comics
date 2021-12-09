@@ -187,11 +187,9 @@ body footer div ul li a {
 
 .girar img {
     width: 20%;
-    padding: 2%;
+    padding: 3%;
     transform: rotate(90deg);
     animation: girar 2s infinite;
-    margin: 0px !important;
-    padding: 0px !important;
 }
 
 .girar .texto {
