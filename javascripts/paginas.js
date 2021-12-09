@@ -24,17 +24,37 @@ const evaluarLR = d => {
     }
 }
 
-const ponerPaginas = async author => {
-    contenedor.innerHTML = `
+const paraPC = () => {
+    const html = `
     <div class="instrucciones" style="text-align: center; display: flex; align-items: center; justify-content: center; height: 650px; color: white; border-top-left-radius:50px; border-bottom-left-radius:50px;">
-		<div>
+		<div class="contenedorUno">
+           <img class="logoEnComic" src="images/firma-pascitto.png" alt="logo de Pascitto">
            <h1>*Has click en las hojas para pasar de página</h1>
-           <h1>*Ajusta la pantalla a tu tamaño preferido</h1>
-           <h1>*Desliza la pantalla para leer completemente el comic</h1>
         </div>
 	</div>
-    `; //HACER ESTO CON UNA FUNCION DIFERENTE PARA PC Y CELULARES
-    //PONER EL LOGO DE PASCITTO Y ENCERRAR LAS INSTRUCCIONES EN UN UL
+    `;
+    return html;
+}
+
+const paraMoviles = () => {
+    const html = `
+    <div class="instrucciones" style="text-align: center; display: flex; align-items: center; justify-content: center; height: 650px; color: white; border-top-left-radius:50px; border-bottom-left-radius:50px;">
+		<div class="contenedorUno">
+           <img class="logoEnComic" src="images/firma-pascitto.png" alt="logo de Pascitto">
+           <ul>
+              <li>Haz click en las hojas para pasar de página</li>
+              <li>Ajusta la pantalla a tu tamaño preferido</li>
+              <li>Desliza la pantalla para visualizar el comic completo</li>
+           </ul>
+        </div>
+	</div>
+    `;
+    return html;
+}
+
+const ponerPaginas = async author => {
+    contenedor.innerHTML = (window.screen.width > 600) ? paraPC() : paraMoviles();
+
     const inform = await obtenerInfo();
 
     inform.comics.map(comic => {
@@ -46,8 +66,10 @@ const ponerPaginas = async author => {
     });
 
     contenedor.innerHTML += `
-    <div style="text-align: center; display: flex; align-items: center; justify-content: center; height: 650px; color: white; border-top-right-radius:50px; border-bottom-right-radius:50px;">
-		<h1>Has llegado al final</h1>
+    <div class="instrucciones" style="text-align: center; display: flex; align-items: center; justify-content: center; height: 650px; color: white; border-top-left-radius:50px; border-bottom-left-radius:50px;">
+		<div class="contenedorUno">
+           <img class="logoEnComic" src="images/firma-pascitto.png" alt="logo de Pascitto">
+        </div>
 	</div>
     `;
 
@@ -72,24 +94,3 @@ const obtenerNombre = () => {
 
 obtenerNombre();
 
-// const mq = matchMedia("(min-width:550px");
-
-// mq.addEventListener("change", () => {
-//     document.querySelector(".girar").style.display = "none";
-//     location.reload();
-// });
-
-// const navBarr1 = document.getElementById("navBarr");
-// const listaNav = document.getElementById("listaNav");
-// const barras1 = document.querySelector(".barras");
-
-// const esconderCel = () => {
-//     window.addEventListener("scroll", () => {
-//         if (window.screen.availWidth > 550) {
-//             document.querySelector(".girar").style.display = "none";
-//             navBarr1.style.top = "65px";
-//             barras1.style.top = "15px";
-//             barras1.style.zIndex = "500";
-//         }
-//     })
-// }

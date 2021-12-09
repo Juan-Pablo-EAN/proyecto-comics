@@ -1,11 +1,5 @@
 body {
-    /* background: #282645; */
-    background: #282645;
-    color: #444;
-    font-size: 12px;
-    color: #333;
-    margin: 0;
-    padding: 0;
+    background: #282645; color: #444; font-size: 12px; color: #333; margin: 0; padding: 0;
 }
 
 @media screen and (max-width:907px) {
@@ -15,76 +9,31 @@ body {
 }
 
 #mybook {
-    outline: none !important;
-    border: 0px solid transparent !important;
-    box-shadow: none;
+    outline: none !important; border: 0px solid transparent !important; box-shadow: none; 
 }
 
 .booklet {
-    width: 907px;
-    height: 100%;
-    position: relative;
-    margin: 0 auto 10px;
-    -moz-box-shadow: 0px 0px 1px #fff;
-    -webkit-box-shadow: 0px 0px 1px #fff;
-    box-shadow: 0px 0px 1px #fff;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+    width: 907px;height: 100%;position: relative;margin: 0 auto 10px;-moz-box-shadow: 0px 0px 1px #fff;-webkit-box-shadow: 0px 0px 1px #fff;box-shadow: 0px 0px 1px #fff;-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px;
 }
 
 .booklet .b-wrap-left {
-    background: #fff url(../images/left_bg.jpg) no-repeat top left;
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-bottomleft: 5px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    background-size: cover;
+    background: #fff url(../images/left_bg.jpg) no-repeat top left;-webkit-border-top-left-radius: 5px;-webkit-border-bottom-left-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-bottomleft: 5px;border-top-left-radius: 5px;border-bottom-left-radius: 5px;background-size: cover;
 }
 
 .booklet .b-wrap-right {    
-    background: #efefef url(../images/right_bg.jpg) no-repeat top left;
-    -webkit-border-top-right-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-    -moz-border-radius-topright: 5px;
-    -moz-border-radius-bottomright: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background-size: cover;
+    background: #efefef url(../images/right_bg.jpg) no-repeat top left;-webkit-border-top-right-radius: 5px;-webkit-border-bottom-right-radius: 5px;-moz-border-radius-topright: 5px;-moz-border-radius-bottomright: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;background-size: cover;
 }
 
 .booklet .b-counter {
-    bottom: 10px;
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 20px;
-    color: white;
-    text-align: center;
-    font-size: medium;
-    padding: 0;
-    background: transparent;
-    opacity: 0.8;
-    text-shadow: 2px 2px 3px black;
-    padding-bottom: 10px;
+    bottom: 10px;position: absolute;display: block;width: 100%;height: 20px;color: white;text-align: center;font-size: medium;padding: 0;background: transparent;opacity: 0.8;text-shadow: 2px 2px 3px black;padding-bottom: 10px;
 }
 
 .book_wrapper {
-    margin: 0 auto;
-    width: 905px;
-    height: 100%;
-    position: relative;
-    /* background: transparent url(../images/bg.png) no-repeat 9px 27px; */
-    padding-top: 10px;
+    margin: 0 auto;width: 905px;height: 100%;position: relative;padding-top: 10px;
 }
 
 .book_wrapper img {
-    width: 100%;
-    height: 640px;
-    margin: 0px;
-    padding: 0px;
+    width: 100%;height: 640px;margin: 0px;padding: 0px;
 }
 
 .loading, #gifCarga {
@@ -93,14 +42,7 @@ body {
 
 a#next_page_button,
 a#prev_page_button {
-    display: none;
-    position: absolute;
-    width: 41px;
-    height: 40px;
-    cursor: pointer;
-    margin-top: -20px;
-    top: 50%;
-    background: transparent url(../images/buttons.png) no-repeat 0px -40px;
+    display: none;position: absolute;width: 41px;height: 40px;cursor: pointer;margin-top: -20px;top: 50%;background: transparent url(../images/buttons.png) no-repeat 0px -40px;
 }
 
 a#prev_page_button {
@@ -108,8 +50,7 @@ a#prev_page_button {
 }
 
 a#next_page_button {
-    right: -50px;
-    background-position: -41px -40px;
+    right: -50px;background-position: -41px -40px;
 }
 
 a#next_page_button:hover {
@@ -121,16 +62,11 @@ a#prev_page_button:hover {
 }
 
 .b-wrap-left {
-    background: linear-gradient(to right, #141414, transparent 500%) !important;
-    padding: 5px 15px 5px 5px!important;
-    height: auto !important;
+    background: linear-gradient(to right, #141414, transparent 500%) !important;padding: 5px 15px 5px 5px!important;height: auto !important;
 }
 
 .b-wrap-right {
-    background: linear-gradient(to left, #141414, transparent 500%) !important;
-    border-left: 1px dashed gray;
-    padding: 5px 5px 5px 10px !important;
-    height: auto !important;
+    background: linear-gradient(to left, #141414, transparent 500%) !important;border-left: 1px dashed gray;padding: 5px 5px 5px 10px !important;height: auto !important;
 }
 
 body header nav ul li a {
@@ -142,29 +78,11 @@ body footer div ul li a {
 }
 
 .sombraL {
-    width: 100%;
-    height: 700px;
-    position: absolute;
-    background-image: url(../booklet/images/shadow.png);
-    left: 0;
-    z-index: 11;
-    background-repeat: no-repeat;
-    background-position: left;
-    opacity: 0.7;
-    background-size: 7% 100%;
+    width: 100%;height: 700px;position: absolute;background-image: url(../booklet/images/shadow.png);left: 0;z-index: 11;background-repeat: no-repeat;background-position: left;opacity: 0.7;background-size: 7% 100%;
 }
 
 .sombraR {
-    width: 100%;
-    height: 700px;
-    position: absolute;
-    background-image: url(../booklet/images/shadow2.png);
-    left: 0;
-    z-index: 20;
-    background-repeat: no-repeat;
-    background-position: right;
-    opacity: 0.7;
-    background-size: 7% 100%;
+    width: 100%;height: 700px;position: absolute;background-image: url(../booklet/images/shadow2.png);left: 0;z-index: 20;background-repeat: no-repeat;background-position: right;opacity: 0.7;background-size: 7% 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -174,11 +92,7 @@ body footer div ul li a {
 }
 
 .girar {
-    padding: 50px 0 10px 0;
-    width: 100%;
-    text-align: center;
-    color: white;
-    display: none;
+    padding: 50px 0 10px 0;width: 100%;text-align: center;color: white;display: none;
 }
 
 @media screen and (max-width:550px) {
@@ -187,16 +101,8 @@ body footer div ul li a {
     }
 }
 
-/* .girar img {
-    width: 20%;
-    padding: 2%;
-    transform: rotate(90deg);
-    animation: girar 2s infinite;
-} */
-
 .girar .texto {
-    font-size: 50px;
-    padding: 15px;
+    font-size: 50px;padding: 15px;
 }
 
 @keyframes girar {
@@ -212,22 +118,29 @@ footer {
 }
 
 .loading {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    width: 100%;display: flex;justify-content: center;
 }
 
 .loading img {
-    width: 300px;
-    margin-top: 50px;
+    width: 300px;margin-top: 50px;
 }
 
 .instrucciones {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    display: flex;align-items: center;flex-wrap: wrap;
 }
 
 .instrucciones h1 {
     width: 100%;
+}
+
+.instrucciones .contenedorUno ul {
+    text-align: left;padding-top: 20px;
+}
+
+.instrucciones .contenedorUno ul li {
+    margin-bottom: 10px;font-size: large;letter-spacing: 1px;
+}
+
+.instrucciones .contenedorUno img {
+    width: 60%;height: auto;filter: invert(1);margin-bottom: 30px;
 }
