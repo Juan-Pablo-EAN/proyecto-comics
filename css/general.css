@@ -1,33 +1,19 @@
-body::-webkit-scrollbar {
-    -webkit-appearance: none;
-    background-color: #282645;
-}
+body::-webkit-scrollbar { -webkit-appearance: none;background-color: #282645;}
 
-body::-webkit-scrollbar:vertical {
-    width:10px;
-}
+body::-webkit-scrollbar:vertical {width:10px;}
 
-body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button {
-    display: none;
-} 
+body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button { display: none;}
 
-body::-webkit-scrollbar:horizontal {
-    height: 10px;
-}
+body::-webkit-scrollbar:horizontal {height: 10px;}
 
 body::-webkit-scrollbar-thumb {
-    background-color: #e27628;
-    border-radius: 20px;
-    border: 1px solid #282645;
+    background-color: #e27628;border-radius: 20px;border: 1px solid #282645;
 }
 
-body::-webkit-scrollbar-track {
-    border-radius: 10px;  
-}
+body::-webkit-scrollbar-track {border-radius: 10px;  }
 
 @font-face {
-    font-family: "FuenteComic";
-    src: url("fuentes/Ventura_Edding_Bold.otf");
+    font-family: "FuenteComic";src: url("fuentes/Ventura_Edding_Bold.otf");
   }
 
 body {
@@ -35,46 +21,23 @@ body {
 }
 
 header nav {
-    padding: 15px;
-    background-color: #e27628;
-    color: white;
-    z-index: 1000;
-    transition: all 0.3s all;
+    padding: 15px; background-color: #e27628; color: white; z-index: 1000; transition: all 0.3s all;
 }
 
 header nav ul {
-    margin: 0;
-    padding: 0;
-    display: grid;
-    list-style: none;
-    grid-template-columns: repeat(4, 1fr); 
-    grid-gap: 10px;
-    height: 25px;
+    margin: 0; padding: 0; display: grid; list-style: none; grid-template-columns: repeat(4, 1fr);  grid-gap: 10px; height: 25px;
 }
 
 nav ul li {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0; padding: 0; text-align: center; display: flex; justify-content: center; align-items: center;
 }
 
 nav ul li a {
-    color: white;
-    font-size: larger;
-    transition: all 0.2s ease;
-    cursor: pointer;
-    text-decoration: none;
-    font-weight: bold;
-    position: absolute;
-    outline: none;
+    color: white; font-size: larger; transition: all 0.2s ease; cursor: pointer; text-decoration: none; font-weight: bold; position: absolute; outline: none;
 }
 
 nav ul li a:hover {
-    color: #282645;
-    font-size: x-large;
+    color: #282645; font-size: x-large;
 }
 
 nav ul li a:active {
@@ -82,17 +45,7 @@ nav ul li a:active {
 }
 
 .barras {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    color: white;
-    font-size: 30px;
-    cursor: pointer;
-    display: none;
-    justify-content: center;
-    align-items: center;
+    width: 30px; height: 30px; position: absolute; top: 15px; right: 15px; color: white; font-size: 30px; cursor: pointer; display: none; justify-content: center; align-items: center;
 }
 
 .barras i {
@@ -100,53 +53,30 @@ nav ul li a:active {
 }
 
 @media screen and (max-width:600px) {
-    .barras {
-        display: flex;
-    }
+    .barras { display: flex; }
     header nav {
-        transform: scale(0);
-        position: absolute;
-        top: 45px;
-        right: 15px;
-        width: 90%;
-        height: auto;
-        padding: 15px 0 15px 0;
-        border-radius: 7px;
-        transition: all 0.2s ease;
+        transform: scale(0); position: absolute; top: 45px; right: 15px; width: 90%; height: auto; padding: 15px 0 15px 0; border-radius: 7px; transition: all 0.2s ease;
     }
     header nav ul {
-        height: auto;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 20px);
+        height: auto; grid-template-columns: 1fr; grid-template-rows: repeat(4, 20px);
     }
-    nav ul li {
-        width: 100%;
-    }
+    nav ul li { width: 100%; }
 }
 
-.visible {
-    transform: scale(1);
-}
+.visible { transform: scale(1); }
 
-.invisible {
-    transform: scale(0);
-}
+.invisible { transform: scale(0); }
 
 footer {
-    background: #e27628;
-    color: white;
+    background: #e27628;color: white;
 }
 
 footer .contenedorF {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 10px;
 }
 
 .contenedorF div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; justify-content: center; align-items: center;
 }
 
 footer .imagen .logo {
@@ -162,15 +92,11 @@ footer .contacto {
 }
 
 footer .contacto .titulo {
-    font-size: larger;
-    width: 100%;
-    font-weight: bold;
-    margin-bottom: 15px;
+    font-size: larger; width: 100%; font-weight: bold; margin-bottom: 15px;
 }
 
 footer .contacto ul{
-    width: 100%;
-    list-style: none;
+    width: 100%; list-style: none;
 }
 
 footer li {
@@ -178,9 +104,7 @@ footer li {
 }
 
 footer a {
-    color: white;
-    text-decoration: none;
-    transition: all 0.2s ease;
+    color: white; text-decoration: none; transition: all 0.2s ease;
 }
 
 footer a:hover {
