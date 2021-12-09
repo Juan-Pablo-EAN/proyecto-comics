@@ -35,6 +35,23 @@
             ]
         },
         {
+            "nombre": "Alejandra Noa",
+            "imagen": "https://lh3.googleusercontent.com/pw/AM-JKLVJSN73vgi7rv17MCmAd0LE0REb52QA0RlLgbDA1ZMmsH8gm_PdnBr7qgbSS9og2tKNd0FuONaEOWeV2EIgcfztvCOqC-q9HvIhjkxeO_KRZywj1mTKAUZ-X7sIUDFxuDO7nCDZusBahgcIC56XH6tk=w420-h630-no?authuser=0",
+            "alias": "Noa Alekei",
+            "info": "Estudiante de lingüística y literatura.",
+            "contacto": [
+                {
+                    "tipo": "Correo",
+                    "correo": "lisa12noa@gmail.com"
+                },
+                {
+                    "tipo": "Instagram",
+                    "instagram": "@noaalekei",
+                    "enlace": "https://www.instagram.com/noaalekei/?hl=es-la"
+                }
+            ]
+        },
+        {
             "nombre": "Lisandro Sarmiento",
             "imagen": "https://lh3.googleusercontent.com/pw/AM-JKLU3G66ZPH58OdZAxgGdkZC0se7BOoKMYtVBesJSctF84gR005Xu3LchMiG_gky2I_-EwLjpD8o122NIwGwY2XHOMwGxNOKKPItEM_ZoLJWCI97769L9VvBgkT4HeFTKrmUPYxjbwhgw8VTJd7iCj-F1=w504-h629-no?authuser=0",
             "alias": "",
@@ -110,23 +127,6 @@
             ]
         },
         {
-            "nombre": "Alejandra Noa",
-            "imagen": "images/user-default.png",
-            "alias": "Noa Alekei",
-            "info": "Estudiante de lingüística y literatura.",
-            "contacto": [
-                {
-                    "tipo": "Correo",
-                    "correo": "lisa12noa@gmail.com"
-                },
-                {
-                    "tipo": "Instagram",
-                    "instagram": "@noaalekei",
-                    "enlace": "https://www.instagram.com/noaalekei/?hl=es-la"
-                }
-            ]
-        },
-        {
             "nombre": "Jeison Lamprea",
             "imagen": "images/user-default.png",
             "alias": "Jackflag",
@@ -135,6 +135,17 @@
                 {
                     "tipo": "Correo",
                     "correo": "Jeisonlamprea666@gmail.com"
+                }
+            ]
+        }, {
+            "nombre": "Julián Muñoz Munevar",
+            "imagen": "images/user-default.png",
+            "alias": "",
+            "info": "Comunicador social",
+            "contacto": [
+                {
+                    "tipo": "Correo",
+                    "correo": "juliancomunicaciones@gmail.com"
                 }
             ]
         }

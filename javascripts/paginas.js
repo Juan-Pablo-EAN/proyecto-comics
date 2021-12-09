@@ -33,7 +33,8 @@ const ponerPaginas = async author => {
            <h1>*Desliza la pantalla para leer completemente el comic</h1>
         </div>
 	</div>
-    `;
+    `; //HACER ESTO CON UNA FUNCION DIFERENTE PARA PC Y CELULARES
+    //PONER EL LOGO DE PASCITTO Y ENCERRAR LAS INSTRUCCIONES EN UN UL
     const inform = await obtenerInfo();
 
     inform.comics.map(comic => {
