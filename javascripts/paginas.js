@@ -62,16 +62,18 @@ const ponerPaginas = async author => {
             for (let i = 1; i <= comic.paginas.length; i++) {
                 crearPaginas(comic.paginas[i - 1], evaluarLR(i), author);
             }
-        }
-    });
-
-    contenedor.innerHTML += `
+            contenedor.innerHTML += `
     <div class="instrucciones" style="text-align: center; display: flex; align-items: center; justify-content: center; height: 650px; color: white; border-top-left-radius:50px; border-bottom-left-radius:50px;">
 		<div class="contenedorUno">
            <img class="logoEnComic" src="images/firma-pascitto.png" alt="logo de Pascitto">
+           <div class="derechos">
+           ${comic.licencia}
+           </div>
         </div>
 	</div>
     `;
+        }
+    });
 
 }
 
@@ -88,9 +90,22 @@ const obtenerNombre = () => {
     enlace = enlace.substring(ubicacion + 1, hasta);
     enlace = enlace.replace(/-/gi, " ");
     enlace = enlace.replace(/%C3%B1/gi, "ñ");
-    console.log(enlace)
     ponerPaginas(enlace);
 }
 
+const obtenerComicName = () => {
+    let url = location.href;
+    let lugar = url.indexOf("&");
+    url = url.substring(lugar + 1, url.length)
+    url = url.replace(/-/gi, " ");
+    url = url.replace(/%C3%B1/gi, "ñ");
+    return url;
+}
+
 obtenerNombre();
+obtenerComicName();
+
+window.addEventListener("load", () => {
+    document.getElementById("tituloP").textContent = obtenerComicName() + " | Páscitto Comics";
+});
 

@@ -13,7 +13,7 @@ const crearPortadas = (nombre, titulo, portada) => {
     contenido.classList.add("contenido");
     divImagen.classList.add("divImagen");
     divTitulo.classList.add("titulo");
-    a.setAttribute("href", `comic.html?${nombre.replace(/ /gi, "-")}&${titulo.replace(/ /gi, "-")}`);
+    a.setAttribute("href", `comic.html?${nombre.replace(/ /gi, "-")}&${(titulo.replace(/ /gi, "-")).normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`);
     imagen.setAttribute("src", `${portada}`);
     imagen.setAttribute("alt", `Portada de ${titulo}`);
     span.textContent = titulo;

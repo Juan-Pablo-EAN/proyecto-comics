@@ -144,3 +144,21 @@ footer {
 .instrucciones .contenedorUno img {
     width: 60%;height: auto;filter: invert(1);margin-bottom: 30px;
 }
+
+.instrucciones .derechos {
+    margin-top: 200px;
+    line-height: 15px;
+}
+
+.instrucciones .derechos a {
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.instrucciones .derechos a:hover{
+    color: #e27628;
+}
+
+.instrucciones .derechos a img {
+    width: 95px;
+}

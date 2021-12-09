@@ -14,7 +14,8 @@
                 "https://lh3.googleusercontent.com/pw/AM-JKLVO9EO8K_JHS9xmnvIQstQcqf3NNyWXEPLLREda1VP4JBWJgTXC2mymSLG476v2QLt2oxaPQTcRN6utpjVDK1YcLcV3pMmc8pYmmJ-xJGA3M1WyEEZR5rtjqyLjQfXkcjefUUZ8xUDgpU1IaFWgGrQ=w409-h629-no?authuser=0",
                 "https://lh3.googleusercontent.com/pw/AM-JKLXCVTorlbpjjj-oQ5Y74NrmkZTv4kCg27w9-ZJX6D_F6Si07skmYY8NeudVBA7AcdO7GNkqtK4F5Qjo7Tk-g_dIkxA0YzWfduIDt6Rr2WA6MTGQsfmwcqc_KFL3m2BrPo_kNHpr3mrezFDkJ6sxm6U=w407-h629-no?authuser=0",
                 "https://lh3.googleusercontent.com/pw/AM-JKLUavBvFAssvYzWWTHpVq6b9soJ6TUUnx9DALX4vlgF8uqflH7MJRmS3RNtO8tRx3iKV1UCo29kBU-me7kxwwyA-BkhF4GBzdS71NGVJnxll0_Cv5FGD3Z-Ogtbi54zttOQUf85GeecHsvGZF2DGebk=w405-h629-no?authuser=0"
-            ]
+            ], 
+            "licencia": "<a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'><img alt='Licencia de Creative Commons' style='border-width:0' src='https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png' /></a><br /><span xmlns:dct='http://purl.org/dc/terms/' href='http://purl.org/dc/dcmitype/InteractiveResource' property='dct:title' rel='dct:type'>Estación Kisaragi</span> by <a xmlns:cc='http://creativecommons.org/ns#' href='https://pascitto-comics.netlify.app/comic.html?Chevy&Estaci%C3%B3n-Kisaragi' property='cc:attributionName' rel='cc:attributionURL'>Sebastian Rodriguez</a> is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional License</a>.<br />Creado a partir de la obra en <a xmlns:dct='http://purl.org/dc/terms/' href='https://pascitto-comics.netlify.app/comic.html?Chevy&Estaci%C3%B3n-Kisaragi' rel='dct:source'>https://pascitto-comics.netlify.app/comic.html?Chevy&Estaci%C3%B3n-Kisaragi</a>."
         }, {
             "nombre": "Maca",
             "titulo": "El doctor Liam Peters",
@@ -29,7 +30,7 @@
                 "https://lh3.googleusercontent.com/pw/AM-JKLVO9EO8K_JHS9xmnvIQstQcqf3NNyWXEPLLREda1VP4JBWJgTXC2mymSLG476v2QLt2oxaPQTcRN6utpjVDK1YcLcV3pMmc8pYmmJ-xJGA3M1WyEEZR5rtjqyLjQfXkcjefUUZ8xUDgpU1IaFWgGrQ=w409-h629-no?authuser=0",
                 "https://lh3.googleusercontent.com/pw/AM-JKLXCVTorlbpjjj-oQ5Y74NrmkZTv4kCg27w9-ZJX6D_F6Si07skmYY8NeudVBA7AcdO7GNkqtK4F5Qjo7Tk-g_dIkxA0YzWfduIDt6Rr2WA6MTGQsfmwcqc_KFL3m2BrPo_kNHpr3mrezFDkJ6sxm6U=w407-h629-no?authuser=0",
                 "https://lh3.googleusercontent.com/pw/AM-JKLUavBvFAssvYzWWTHpVq6b9soJ6TUUnx9DALX4vlgF8uqflH7MJRmS3RNtO8tRx3iKV1UCo29kBU-me7kxwwyA-BkhF4GBzdS71NGVJnxll0_Cv5FGD3Z-Ogtbi54zttOQUf85GeecHsvGZF2DGebk=w405-h629-no?authuser=0"
-            ]
+            ], "licencia": ""
         }, 
         {
             "nombre": "Daio",
@@ -45,7 +46,7 @@
                 "https://lh3.googleusercontent.com/pw/AM-JKLVO9EO8K_JHS9xmnvIQstQcqf3NNyWXEPLLREda1VP4JBWJgTXC2mymSLG476v2QLt2oxaPQTcRN6utpjVDK1YcLcV3pMmc8pYmmJ-xJGA3M1WyEEZR5rtjqyLjQfXkcjefUUZ8xUDgpU1IaFWgGrQ=w409-h629-no?authuser=0",
                 "https://lh3.googleusercontent.com/pw/AM-JKLXCVTorlbpjjj-oQ5Y74NrmkZTv4kCg27w9-ZJX6D_F6Si07skmYY8NeudVBA7AcdO7GNkqtK4F5Qjo7Tk-g_dIkxA0YzWfduIDt6Rr2WA6MTGQsfmwcqc_KFL3m2BrPo_kNHpr3mrezFDkJ6sxm6U=w407-h629-no?authuser=0",
                 "https://lh3.googleusercontent.com/pw/AM-JKLUavBvFAssvYzWWTHpVq6b9soJ6TUUnx9DALX4vlgF8uqflH7MJRmS3RNtO8tRx3iKV1UCo29kBU-me7kxwwyA-BkhF4GBzdS71NGVJnxll0_Cv5FGD3Z-Ogtbi54zttOQUf85GeecHsvGZF2DGebk=w405-h629-no?authuser=0"
-            ]
+            ], "licencia": ""
         }, {
             "nombre": "Tronx-ultra",
             "titulo": "Nombre del comic",
@@ -75,7 +76,7 @@
                 "https://lh3.googleusercontent.com/pw/AM-JKLVO9EO8K_JHS9xmnvIQstQcqf3NNyWXEPLLREda1VP4JBWJgTXC2mymSLG476v2QLt2oxaPQTcRN6utpjVDK1YcLcV3pMmc8pYmmJ-xJGA3M1WyEEZR5rtjqyLjQfXkcjefUUZ8xUDgpU1IaFWgGrQ=w409-h629-no?authuser=0",
                 "https://lh3.googleusercontent.com/pw/AM-JKLXCVTorlbpjjj-oQ5Y74NrmkZTv4kCg27w9-ZJX6D_F6Si07skmYY8NeudVBA7AcdO7GNkqtK4F5Qjo7Tk-g_dIkxA0YzWfduIDt6Rr2WA6MTGQsfmwcqc_KFL3m2BrPo_kNHpr3mrezFDkJ6sxm6U=w407-h629-no?authuser=0",
                 "https://lh3.googleusercontent.com/pw/AM-JKLUavBvFAssvYzWWTHpVq6b9soJ6TUUnx9DALX4vlgF8uqflH7MJRmS3RNtO8tRx3iKV1UCo29kBU-me7kxwwyA-BkhF4GBzdS71NGVJnxll0_Cv5FGD3Z-Ogtbi54zttOQUf85GeecHsvGZF2DGebk=w405-h629-no?authuser=0"
-            ]
+            ], "licencia": ""
         }, {
             "nombre": "Sebastian Achury",
             "titulo": "Nombre del comic",
@@ -90,7 +91,7 @@
                 "https://lh3.googleusercontent.com/pw/AM-JKLVO9EO8K_JHS9xmnvIQstQcqf3NNyWXEPLLREda1VP4JBWJgTXC2mymSLG476v2QLt2oxaPQTcRN6utpjVDK1YcLcV3pMmc8pYmmJ-xJGA3M1WyEEZR5rtjqyLjQfXkcjefUUZ8xUDgpU1IaFWgGrQ=w409-h629-no?authuser=0",
                 "https://lh3.googleusercontent.com/pw/AM-JKLXCVTorlbpjjj-oQ5Y74NrmkZTv4kCg27w9-ZJX6D_F6Si07skmYY8NeudVBA7AcdO7GNkqtK4F5Qjo7Tk-g_dIkxA0YzWfduIDt6Rr2WA6MTGQsfmwcqc_KFL3m2BrPo_kNHpr3mrezFDkJ6sxm6U=w407-h629-no?authuser=0",
                 "https://lh3.googleusercontent.com/pw/AM-JKLUavBvFAssvYzWWTHpVq6b9soJ6TUUnx9DALX4vlgF8uqflH7MJRmS3RNtO8tRx3iKV1UCo29kBU-me7kxwwyA-BkhF4GBzdS71NGVJnxll0_Cv5FGD3Z-Ogtbi54zttOQUf85GeecHsvGZF2DGebk=w405-h629-no?authuser=0"
-            ]
+            ], "licencia": ""
         }, {
             "nombre": "Noa Alekei",
             "titulo": "Nombre del comic",
@@ -105,7 +106,7 @@
                 "https://lh3.googleusercontent.com/pw/AM-JKLVO9EO8K_JHS9xmnvIQstQcqf3NNyWXEPLLREda1VP4JBWJgTXC2mymSLG476v2QLt2oxaPQTcRN6utpjVDK1YcLcV3pMmc8pYmmJ-xJGA3M1WyEEZR5rtjqyLjQfXkcjefUUZ8xUDgpU1IaFWgGrQ=w409-h629-no?authuser=0",
                 "https://lh3.googleusercontent.com/pw/AM-JKLXCVTorlbpjjj-oQ5Y74NrmkZTv4kCg27w9-ZJX6D_F6Si07skmYY8NeudVBA7AcdO7GNkqtK4F5Qjo7Tk-g_dIkxA0YzWfduIDt6Rr2WA6MTGQsfmwcqc_KFL3m2BrPo_kNHpr3mrezFDkJ6sxm6U=w407-h629-no?authuser=0",
                 "https://lh3.googleusercontent.com/pw/AM-JKLUavBvFAssvYzWWTHpVq6b9soJ6TUUnx9DALX4vlgF8uqflH7MJRmS3RNtO8tRx3iKV1UCo29kBU-me7kxwwyA-BkhF4GBzdS71NGVJnxll0_Cv5FGD3Z-Ogtbi54zttOQUf85GeecHsvGZF2DGebk=w405-h629-no?authuser=0"
-            ]
+            ], "licencia": ""
         }, {
             "nombre": "Jackflag",
             "titulo": "Nombre del comic",
@@ -120,7 +121,7 @@
                 "https://lh3.googleusercontent.com/pw/AM-JKLVev4jYm8XH9kqjDEN65X2eNF6r205DMfWItwII8A390cehYqNxJWz8t5Xr4nPwLcBWA_NQM6miDE2C-n7XSBZoLP5XraOo6NqyDLSnFZg8nZME7qTEAtQPZ8-XK0uMp35Jfuf_haCN7ROguG0bN4M=w409-h629-no?authuser=0",
                 "https://lh3.googleusercontent.com/pw/AM-JKLXCVTorlbpjjj-oQ5Y74NrmkZTv4kCg27w9-ZJX6D_F6Si07skmYY8NeudVBA7AcdO7GNkqtK4F5Qjo7Tk-g_dIkxA0YzWfduIDt6Rr2WA6MTGQsfmwcqc_KFL3m2BrPo_kNHpr3mrezFDkJ6sxm6U=w407-h629-no?authuser=0",
                 "https://lh3.googleusercontent.com/pw/AM-JKLUavBvFAssvYzWWTHpVq6b9soJ6TUUnx9DALX4vlgF8uqflH7MJRmS3RNtO8tRx3iKV1UCo29kBU-me7kxwwyA-BkhF4GBzdS71NGVJnxll0_Cv5FGD3Z-Ogtbi54zttOQUf85GeecHsvGZF2DGebk=w405-h629-no?authuser=0"
-            ]
+            ], "licencia": ""
         }, {
             "nombre": "Autor9",
             "titulo": "Nombre del comic",
