@@ -31,16 +31,17 @@ section {
 }
 
 .contenedor {
-    width: 100%; max-width: 95%; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 40px; padding-top: 50px; transition: all 0.2s ease; justify-content: center;
+    max-width: 95%; display: grid; justify-content: center; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 40px; padding-top: 50px; transition: all 0.2s ease; align-items: center;
 }
 
 .contenedor .comic {
     display: flex;
     justify-content: center;
+    max-width: 400px;
 }
 
 .contenedor .contenido {
-    max-width: 400px;
+   width: 100%;
 }
 
 @media screen and (max-width:870px) {
