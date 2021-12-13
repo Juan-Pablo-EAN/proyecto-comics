@@ -1,0 +1,40 @@
+body {
+    background: #282645;
+    background: linear-gradient(to left top, black,  #1f1e36, #553e8d);
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section .titulo1 {
+    width: 100;
+    padding-top: 30px;
+}
+
+section .titulo1 h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.contenedor {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+}
+
+.contenedor .comic {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor .comic .contenido {
+    max-width: 400px;
+}
+
+.contenido:hover {
+    transform: scale(1, 1); box-shadow: 5px 5px 30px #e27628;
+}

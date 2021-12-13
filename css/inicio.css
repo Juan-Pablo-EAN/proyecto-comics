@@ -35,9 +35,7 @@ section {
 }
 
 .contenedor .comic {
-    display: flex;
-    justify-content: center;
-    max-width: 400px;
+    display: flex; justify-content: center; max-width: 400px;
 }
 
 .contenedor .contenido {
