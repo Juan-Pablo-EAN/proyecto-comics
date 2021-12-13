@@ -1,3 +1,5 @@
+"use strict";
+
 const navBarr = document.getElementById("navBarr");
 const barras = document.querySelector(".barras");
 

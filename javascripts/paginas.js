@@ -1,3 +1,5 @@
+"use strict";
+
 const contenedor = document.getElementById("contenedor");
 
 const crearPaginas = (pagina, direction, autor) => {
@@ -59,19 +61,24 @@ const ponerPaginas = async author => {
 
     inform.comics.map(comic => {
         if(comic.nombre === author){
+
+            document.getElementById("tituloP").textContent = comic.titulo + " | Páscitto Comics";
+            document.querySelector(".titulo").textContent = comic.titulo;
+
             for (let i = 1; i <= comic.paginas.length; i++) {
                 crearPaginas(comic.paginas[i - 1], evaluarLR(i), author);
             }
+            
             contenedor.innerHTML += `
-    <div class="instrucciones" style="text-align: center; display: flex; align-items: center; justify-content: center; height: 650px; color: white; border-top-left-radius:50px; border-bottom-left-radius:50px;">
-		<div class="contenedorUno">
-           <img class="logoEnComic" src="images/firma-pascitto.png" alt="logo de Pascitto">
-           <div class="derechos">
-           ${comic.licencia}
-           </div>
-        </div>
-	</div>
-    `;
+            <div class="instrucciones" style="text-align: center; display: flex; align-items: center; justify-content: center; height: 650px; color: white; border-top-left-radius:50px; border-bottom-left-radius:50px;">
+	        	<div class="contenedorUno">
+                   <img class="logoEnComic" src="images/firma-pascitto.png" alt="logo de Pascitto">
+                   <div class="derechos">
+                   ${comic.licencia}
+                   </div>
+                </div>
+	        </div>
+             `;
         }
     });
 
@@ -93,19 +100,5 @@ const obtenerNombre = () => {
     ponerPaginas(enlace);
 }
 
-const obtenerComicName = () => {
-    let url = location.href;
-    let lugar = url.indexOf("&");
-    url = url.substring(lugar + 1, url.length)
-    url = url.replace(/-/gi, " ");
-    url = url.replace(/%C3%B1/gi, "ñ");
-    return url;
-}
-
 obtenerNombre();
-obtenerComicName();
-
-window.addEventListener("load", () => {
-    document.getElementById("tituloP").textContent = obtenerComicName() + " | Páscitto Comics";
-});
 

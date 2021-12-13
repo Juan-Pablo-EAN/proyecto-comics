@@ -29,7 +29,7 @@ body {
 }
 
 .book_wrapper {
-    top: 50px; margin: 0 auto;width: 905px;height: 100%;position: relative;padding-top: 10px;
+    margin: 0 auto;width: 905px;height: 100%;position: relative;padding-top: 10px;
 }
 
 .book_wrapper img {
@@ -161,4 +161,8 @@ footer {
 
 .instrucciones .derechos a img {
     width: 95px;
+}
+
+section .titulo {
+    text-align: center; color: white; padding-top: 20px; font-size: 40px; letter-spacing: 3px;
 }

@@ -1,3 +1,5 @@
+"use strict";
+
 const contenedor = document.querySelector(".contenedor");
 
 const crearHtml = async () => {

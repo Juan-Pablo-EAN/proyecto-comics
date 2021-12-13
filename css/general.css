@@ -1,11 +1,5 @@
 body::-webkit-scrollbar { -webkit-appearance: none;background-color: #282645;}
 
-body::-webkit-scrollbar:vertical {width:10px;}
-
-body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button { display: none;}
-
-body::-webkit-scrollbar:horizontal {height: 10px;}
-
 body::-webkit-scrollbar-thumb {
     background-color: #e27628;border-radius: 20px;border: 1px solid #282645;
 }
@@ -21,7 +15,7 @@ body {
 }
 
 header nav {
-    padding: 15px; background-color: #e27628; color: white; z-index: 1000; transition: all 0.3s all;
+    padding: 15px; background-color: #e27628; color: white; z-index: 1000; transition: all 0.3s ease;
 }
 
 header nav ul {
