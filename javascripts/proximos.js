@@ -8,7 +8,7 @@ const consultar = async () => {
 
 const contenedor = document.querySelector(".contenedor");
 
-const crearPortadas = (titulo, portada) => {
+const crearPortadas = (titulo, portada, sinopsis) => {
     const comic = document.createElement("DIV");
     const contenido = document.createElement("DIV");
     const divImagen = document.createElement("DIV");
@@ -22,6 +22,23 @@ const crearPortadas = (titulo, portada) => {
     imagen.setAttribute("src", `${portada}`);
     imagen.setAttribute("alt", `Portada de ${titulo}`);
     span.textContent = titulo;
+
+    contenido.addEventListener("mouseenter", () => {
+        divImagen.style.background = "rgba(255, 255, 255, 0.418)";
+        divImagen.style.transform = "scaleX(-1)";
+        divImagen.style.transform = "perspective(800px) rotateY(-180deg) translateX(0px)";
+        setTimeout(() => {
+            divImagen.innerHTML = `<span>${sinopsis}</span>`;
+        }, 300);
+    });
+    contenido.addEventListener("mouseleave", () => {
+        divImagen.style.transform = "none";
+        setTimeout(() => {
+            divImagen.textContent = "";
+            divImagen.appendChild(imagen);
+        }, 300);
+    });
+
     divTitulo.appendChild(span);
     divImagen.appendChild(imagen);
     contenido.appendChild(divImagen);
@@ -32,12 +49,12 @@ const crearPortadas = (titulo, portada) => {
 
 const ponerPortadas = async () => {
     const info = await consultar();
-    if(info.proximos.length === 0){
+    if (info.proximos.length === 0) {
         document.querySelector(".textoT").textContent = "No hay comics próximos a ser publicados";
     } else {
         document.querySelector(".textoT").textContent = "Próximamente en Páscitto Comics...";
         info.proximos.map(p => {
-            crearPortadas(p.titulo, p.imagen);
+            crearPortadas(p.titulo, p.imagen, p.sinopsis);
         });
     }
 }

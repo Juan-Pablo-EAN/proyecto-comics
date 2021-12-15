@@ -2,7 +2,8 @@
     "proximos": [
         {
             "titulo": "Titulo del próximo",
-            "imagen": "https://lh3.googleusercontent.com/pw/AM-JKLUavBvFAssvYzWWTHpVq6b9soJ6TUUnx9DALX4vlgF8uqflH7MJRmS3RNtO8tRx3iKV1UCo29kBU-me7kxwwyA-BkhF4GBzdS71NGVJnxll0_Cv5FGD3Z-Ogtbi54zttOQUf85GeecHsvGZF2DGebk=w405-h629-no?authuser=0"
+            "imagen": "https://lh3.googleusercontent.com/pw/AM-JKLUavBvFAssvYzWWTHpVq6b9soJ6TUUnx9DALX4vlgF8uqflH7MJRmS3RNtO8tRx3iKV1UCo29kBU-me7kxwwyA-BkhF4GBzdS71NGVJnxll0_Cv5FGD3Z-Ogtbi54zttOQUf85GeecHsvGZF2DGebk=w405-h629-no?authuser=0",
+            "sinopsis": "Aqui va la sinopsis del comic"
         }
     ]
 }

@@ -36,5 +36,28 @@ section .titulo1 h1 {
 }
 
 .contenido:hover {
-    transform: scale(1, 1); box-shadow: 5px 5px 30px #e27628;
+    transform: scale(1, 1); box-shadow: none;
+}
+
+.divImagen {
+    height: 600px;
+    transition: all 1s ease;
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.divImagen span {
+    transform: perspective(600px) rotateY(-180deg) translateX(0px);
+}
+
+.divImagen img {
+    height: 100%;
+}
+
+.divImagen, .divImagen img, .comic {
+    border-radius: 5px;
 }
