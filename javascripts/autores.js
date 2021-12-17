@@ -19,7 +19,7 @@ const crearHtml = async () => {
         divDatos.classList.add("datos");
         imagen.setAttribute("src", `${autor.imagen}`);
         imagen.setAttribute("alt", `Imagen de ${autor.nombre}`);
-        imagen.setAttribute("title", `Imagen de ${autor.nombre}`);
+        imagen.setAttribute("title", `${autor.nombre}`);
         divImagen.appendChild(imagen);
         liName.innerHTML = `<i class="${iconoNombre()}"></i> ${autor.nombre}`;
         autor.alias !== "" ? liAlias.innerHTML = `<i class="${iconoAlias()}"></i> Seudónimo: ${autor.alias}`
