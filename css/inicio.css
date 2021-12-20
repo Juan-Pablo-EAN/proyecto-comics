@@ -106,3 +106,13 @@ section {
     }
     .fondo .flecha { display:  none;}
 }
+
+#prueba {
+    width: 500px;
+    border: 2px solid green;
+        image-rendering: optimizeQuality;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: optimize-contrast;
+        -ms-interpolation-mode: nearest-neighbor;
+}

@@ -60,7 +60,7 @@ const ponerPaginas = async author => {
     const inform = await obtenerInfo();
 
     inform.comics.map(comic => {
-        if(comic.nombre === author){
+        if((comic.nombre).toLowerCase() === author){
 
             document.getElementById("tituloP").textContent = comic.titulo + " | Páscitto Comics";
             document.querySelector(".titulo").textContent = comic.titulo;
