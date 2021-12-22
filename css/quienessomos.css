@@ -66,6 +66,7 @@ header nav ul li a:hover {
 section {
     display: flex;
     padding-bottom: 70px;
+    align-items: center;
 }
 
 section .texto {
@@ -74,11 +75,13 @@ section .texto {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 
 section .texto h1 {
     font-size: 70px;
     margin: 0;
+    margin-top: 20px;
 }
 
 section .texto p {
@@ -86,6 +89,12 @@ section .texto p {
     letter-spacing: 2px;
     line-height: 21px;
     color: white;
+}
+
+section .texto .content {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 50px;
 }
 
 section .imagen {
@@ -97,6 +106,18 @@ section .imagen {
 
 section .imagen img {
     width: 80%;
+}
+
+@media screen and (max-width: 900px) {
+    section .texto h1 {
+        position: absolute;
+        width: 90%;
+        margin-top: -100px;
+        text-align: center;
+    }
+    section .texto {
+        margin-top: 100px;
+    }
 }
 
 footer .contenedorF {
@@ -173,5 +194,17 @@ footer img {
     footer {
         border: none;
         margin: 0;
+    }
+    section .texto .content {
+        gap: 20px;
+    }
+    section .texto h1 {
+        position: relative;
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+    section .texto {
+        margin-top: 10px;
     }
 }

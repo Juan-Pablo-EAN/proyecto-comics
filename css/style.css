@@ -25,11 +25,11 @@ body {
 }
 
 .booklet .b-counter {
-    bottom: 10px;position: absolute;display: block;width: 100%;height: 20px;color: white;text-align: center;font-size: medium;padding: 0;background: transparent;opacity: 0.8;text-shadow: 2px 2px 3px black;padding-bottom: 10px;
+    display: none; color: transparent;
 }
 
 .book_wrapper {
-    margin: 0 auto;width: 905px;height: 100%;position: relative;padding-top: 10px;
+    margin: 0 auto;width: 905px;height: 100%;position: relative;padding-top: 10px; background-color: #141414; padding: 0px 2px 0 0!important;
 }
 
 .book_wrapper img {
