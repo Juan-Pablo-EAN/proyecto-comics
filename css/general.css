@@ -62,7 +62,7 @@ nav ul li a:active {
 .invisible { transform: scale(0); }
 
 footer {
-    background: #e27628;color: white;
+    background: #e27628; color: white;
 }
 
 footer .contenedorF {

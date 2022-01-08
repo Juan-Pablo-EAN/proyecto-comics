@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #141414;
+    background-image: url(../images/pintura-pascitto-min.png);
+}
+
+img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fondo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #141414b4;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.texto {
+    font-size: x-large;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    align-items: center;
+}
+
+.texto div {
+    width: 100%;
+}
+
+.texto a {
+    color: white;
+}
+
+.texto a:hover {
+    color: #605ba8;
+}
+
+.numero {
+    font-size: 300px;
+}
+
+.numero span {
+    margin: -20px;
+    cursor: pointer;
+    transition: all .15s ease;
+}
+
+.numero span:hover {
+    color: #e27628;
+}
