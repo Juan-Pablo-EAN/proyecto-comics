@@ -50,7 +50,15 @@ const crearPortadas = (titulo, portada, sinopsis) => {
 const ponerPortadas = async () => {
     const info = await consultar();
     if (info.proximos.length === 0) {
-        document.querySelector(".textoT").textContent = "No hay comics próximos a ser publicados";
+        document.querySelector(".textoT").textContent = "Aún no hay próximos lanzamientos";
+        document.querySelector("section").style.height = "600px";
+        document.querySelector("section").style.display = "flex";
+        document.querySelector("section").style.alignItems = "center";
+        document.querySelector("section").style.background = "#141414b4";
+        document.querySelector("section").style.padding = "0";
+        document.querySelector("body").style.backgroundImage = "url(../images/pintura-pascitto-min.png)";
+        document.querySelector("body").style.backgroundAttachment = "fixed";
+        document.querySelector(".titulo1").style.paddingTop = "90px";
     } else {
         document.querySelector(".textoT").textContent = "Próximamente en Páscitto Comics...";
         info.proximos.map(p => {

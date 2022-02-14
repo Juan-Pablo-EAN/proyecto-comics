@@ -31,7 +31,7 @@ const paraPC = () => {
     <div class="instrucciones" style="text-align: center; display: flex; align-items: center; justify-content: center; height: 650px; color: white; border-top-left-radius:50px; border-bottom-left-radius:50px;">
 		<div class="contenedorUno">
            <img class="logoEnComic" src="images/firma-pascitto.png" alt="logo de Pascitto">
-           <h1>*Has click en las hojas para pasar de página</h1>
+           <h1>*Haz click en las hojas para pasar de página</h1>
         </div>
 	</div>
     `;
