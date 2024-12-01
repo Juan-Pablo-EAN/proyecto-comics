@@ -89,7 +89,7 @@ const ponerPaginas = async author => {
 }
 
 const obtenerInfo = async () => {
-    return fetch("../baseDeDatos/comics.json")
+    return fetch("https://juan-pablo-ean.github.io/proyecto-comics/baseDeDatos/comics.json")
         .then(res => res.json())
         .then(info => info);
 }
