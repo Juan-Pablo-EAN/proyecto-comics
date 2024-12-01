@@ -1,5 +1,29 @@
 {
     "proximos": [
-        
+        {
+            "titulo": "Estación Kisaragi - Rojo",
+            "imagen": "https://lh3.googleusercontent.com/pw/AP1GczPcHIJpVPjOispLTLmZFpn3i1n4w9OZQgtlzfkxMgVpTMH_gcPYkdL0cRxz-Onzj6-FncsYf6WEOodGPVJiY0G5FPWAhKeUn9vpjOKLeSVaK-b0_wgNfZTqkWW6XaxURSA8ABJng_6PnqB4k7K9HMq3=w690-h893-s-no?authuser=0",
+            "sinopsis": "Sebastián Sánchez Rodríguez"
+        },
+        {
+            "titulo": "Jett y Dingo",
+            "imagen": "https://lh3.googleusercontent.com/pw/AP1GczOBK4vesj8yz6pV4XF7fk1XQVaA6DvhILNTaV6w_4_CNyL_SIFdPndFTHhJHX6CNKalq3isqoBa5ClnKll6yno_Qg2PgUuBApXSy-hdtzP6CVUvmuvLRgFAZIJyRGnohMX0LDmGr7wDoBPbRa2YlKc0=w638-h893-s-no?authuser=0",
+            "sinopsis": "Luna Cadavid Romero"
+        },
+        {
+            "titulo": "Isac",
+            "imagen": "https://lh3.googleusercontent.com/pw/AP1GczO6eGkw24txzOAqc0Rb9GwBku1oLqGbKBqZo8cYqoTBPRdSAHpNq2JyS5iCtDyUkF3C859JVMYNZANZLNcyMcvgb4O3PI3jik4SC0-oGF4CLWUiFuWvhz6XSOqcela5WCLsLIqx3kVS7h7iHjTmOn-Q=w632-h893-s-no?authuser=0",
+            "sinopsis": "Dayana Rocio Bello Vega"
+        },
+        {
+            "titulo": "Bang Voël",
+            "imagen": "https://lh3.googleusercontent.com/pw/AP1GczNaVAhxYjII8GaQ0273fbQh_Vcw_FLAPOx_lfqCE4sa6h_j0CxhRH2kugGsWfK5hOrttK6CwzeGhZFmFeGtri5ax2xuGYUdAkz8EvcWpw6bTrG4rjHeKY7vxAhmLb_w6Jv_EoB78Ro4CKhq3IAO98Zj=w632-h893-s-no?authuser=0",
+            "sinopsis": "Santiago Garnica Carrillo"
+        },
+        {
+            "titulo": "Caoz",
+            "imagen": "https://lh3.googleusercontent.com/pw/AP1GczORfy84WowhsE-_chPB6hOnat2PmQPwzqNpukClMcxgeEZvi0gNVV8yBD8fb_BwdZYBVvLHGVu35hbmjRgZ5cgOl2uYN_7W98biJ0hIth_-QrLA0gEIRxYy_5Pja8PCvJrP0qmsdLPq_mK88k344RD1=w669-h893-s-no?authuser=0",
+            "sinopsis": "Angie Tatiana Bentham Aldana"
+        }
     ]
 }

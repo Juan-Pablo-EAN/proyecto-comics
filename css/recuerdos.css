@@ -1,0 +1,90 @@
+body {
+    margin: 0; padding: 0; background: #282645;
+}
+
+header .titulo {
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+section {
+    padding: 5% 10% 10%;
+}
+
+section .cardContainer .card {
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #47437c;
+    margin-bottom: 20px;
+    transition: all .2s ease;
+}
+
+section .cardContainer {
+    transition: all .2s ease;
+}
+
+section .cardContainer :hover{
+    background-color: #2e2b4e;
+}
+
+section .cardContainer .card .divImage {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .cardContainer .card .divImage img {
+    width: 100%;
+    height: auto;
+}
+
+section .cardContainer .card .divText {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all .2s ease;
+}
+
+section .cardContainer .card .divText div {
+    width: 100%;
+    padding-left: 5%;
+    margin-bottom: 2%;
+    transition: all .2s ease;
+}
+
+section .cardContainer .card .divText .title {
+    font-size: xx-large;
+    color: white;
+    font-family: "fuenteComic";
+}
+
+section .cardContainer .card .divText .author {
+    font-size: x-large;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width:600px) {
+    section {
+        padding: 5%;
+    }
+
+    section .cardContainer .card .divImage {
+        width: 30%;
+    }
+
+    section .cardContainer .card .divText .title {
+        font-size: large;
+    }
+
+    section .cardContainer .card .divText .author {
+        font-size: medium;
+    }
+}
