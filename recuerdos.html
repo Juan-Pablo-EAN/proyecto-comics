@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/recuerdos.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Baúl de recuerdos</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navBarr">
+        <div>
+          <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
+        </div>
+        <div>
+          <a href="autores.html"><i class="fas fa-users"></i> Autores</a>
+        </div>
+        <div>
+          <a href="quienessomos.html"
+            ><i class="fas fa-address-card"></i> Quiénes somos</a
+          >
+        </div>
+        <div>
+          <a href="#"><i class="fas fa-book-open"></i> Baúl de recuerdos</a>
+        </div>
+        <div>
+          <a href="proximamente.html"
+            ><i class="fas fa-book-open"></i> Próximamente</a
+          >
+        </div>
+      </nav>
+      <style>
+        nav#navBarr {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+
+        nav#navBarr div {
+          flex: 1 1 auto;
+          text-align: center;
+          padding: 10px;
+        }
+
+        nav#navBarr a {
+          color: white;
+          text-decoration: none;
+          font-size: 1.2em;
+        }
+
+        @media (max-width: 768px) {
+          nav#navBarr {
+            flex-direction: column;
+          }
+
+          nav#navBarr div {
+            padding: 5px;
+          }
+        }
+      </style>
+      <div class="titulo">
+        <span>Baúl de recuerdos</span>
+      </div>
+    </header>
+    <section>
+      <div class="cardContainer">
+        <!-- <div class="card">
+          <div class="divImage">
+            <img
+              src="https://lh3.googleusercontent.com/pw/AM-JKLW6FWCM26wfkItBoBidF94frcqUiH08p3_ZcKHkc4AWJGapOK_2hwVNpFSLUE8bOaKEMobIEsefcqiEwIHxCn1yKHLpfkvCx93jKujvv4Wa7BgyIOtKc2u3HVT82eMqe8BFXzi8ZHTnQHShIDcX_Qwo=w605-h907-no?authuser=0"
+              alt=""
+            />
+          </div>
+          <div class="divText">
+            <div>
+              <span class="title">El doctor Liam Peters</span>
+            </div>
+            <div>
+              <span class="author">Autor: Maca</span>
+            </div>
+          </div>
+        </div>
+         -->
+      </div>
+    </section>
+    <footer>
+      <div class="contenedorF">
+        <div class="imagen">
+          <img class="logo" src="images/firma-pascitto.png" alt="Logo" />
+        </div>
+        <div class="enlaces">
+          <ul>
+            <li>
+              <a href="index.html">Inicio</a>
+            </li>
+            <li>
+              <a href="autores.html">Autores</a>
+            </li>
+            <li>
+              <a href="quienessomos.html">Quiénes somos</a>
+            </li>
+            <li>
+              <a href="#">Baúl de recuerdos</a>
+            </li>
+            <li>
+              <a href="proximamente.html">Próximamente</a>
+            </li>
+          </ul>
+        </div>
+        <div class="contacto">
+          <ul>
+            <li class="titulo">Contáctanos</li>
+            <li>
+              <a
+                href="https://www.instagram.com/pascitto.comics/"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i> @pascitto.comics
+              </a>
+            </li>
+            <li>
+              <a href="mailto:pascitto.comics@gmail.com"
+                >pascitto.comics@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="javascripts/recuerdos.js"></script>
+  </body>
+</html>

@@ -167,3 +167,36 @@ footer {
 section .titulo {
     text-align: center; color: white; padding-top: 20px; font-size: 40px; letter-spacing: 3px;
 }
+
+.complementeMaterialDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease;
+}
+
+.complementeMaterialDiv button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #e27628;
+    color: white;
+    margin-top: 5%;
+    cursor: pointer;
+    transition: all .2s ease;
+    color: white;
+    outline: none;
+    font-family: 'fuenteComic';
+    font-size: larger;
+}
+
+.complementeMaterialDiv :hover {
+    background-color: #cd6c26;
+}
+
+.complementeMaterialDiv :active {
+    background-color: #ae5c20;
+}
+

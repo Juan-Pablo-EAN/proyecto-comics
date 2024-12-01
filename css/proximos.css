@@ -8,13 +8,13 @@ section .titulo1 h1 { text-align: center; font-size: 40px; color: white;}
 
 .contenedor { width: 100%; justify-content: center; padding: 0;}
 
-.contenedor .comic { max-width: 100%; display: flex; justify-content: center;}
+.contenedor .comic { max-width: auto; display: flex; justify-content: center;}
 
-.contenedor .comic .contenido { max-width: 400px;}
+.contenedor .comic .contenido { max-width: 220px;}
 
 .contenido:hover { transform: scale(1, 1); box-shadow: none;}
 
-.divImagen { height: 600px; transition: all 1s ease; display: flex; text-align: center; color: white; justify-content: center; align-items: center; font-size: xx-large;}
+.divImagen { height: 300px; transition: all 1s ease; display: flex; text-align: center; color: white; justify-content: center; align-items: center; font-size: xx-large;}
 
 .divImagen span { transform: perspective(600px) rotateY(-180deg) translateX(0px);}
 

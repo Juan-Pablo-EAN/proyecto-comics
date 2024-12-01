@@ -68,6 +68,10 @@ const ponerPaginas = async author => {
             for (let i = 1; i <= comic.paginas.length; i++) {
                 crearPaginas(comic.paginas[i - 1], evaluarLR(i), author);
             }
+
+            if(comic.materialComplementario.length == 0){
+                document.querySelector(".complementeMaterialDiv").style.display = "none";
+            }
             
             contenedor.innerHTML += `
             <div class="instrucciones" style="text-align: center; display: flex; align-items: center; justify-content: center; height: 650px; color: white; border-top-left-radius:50px; border-bottom-left-radius:50px;">

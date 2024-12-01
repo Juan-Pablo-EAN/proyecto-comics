@@ -4,7 +4,7 @@
             "nombre": "Sebastián Sánchez Rodríguez",
             "imagen": "https://lh3.googleusercontent.com/pw/AM-JKLXbLqkZ1Mvp4onfG8Uvh3dEEczlk0YTce9s2ekIs65ebKAuiwHPFGkiKZNKF3tbBSiXbFC7lzSJ8bi9VPt-Q7cNByAhpHcvD9Yjifw7h_aOB8UTr_tl9uV_j4BjeKFMEsSH2m0nQT_35qaXt8V2nJ4=w420-h629-no?authuser=0",
             "alias": "Chevy",
-            "info": " Estudiante de licenciatura en filosofía",
+            "info": "Licenciado en filosofía",
             "contacto": [
                 {
                     "tipo": "Correo",
@@ -18,82 +18,104 @@
             ]
         },
         {
-            "nombre": "María Camila Villada",
-            "imagen": "https://lh3.googleusercontent.com/pw/AM-JKLXn7oKhFePcVvYBIeWv4KdSP1xXPUyu61HN65Ic7l69zazyQjHZ2x5Y4fxHffIlDYMYw7WVE3Npl6TkEAwZLFuldCyPkzOiYNpTy5C7P5nrrcko49rMptTXUo2L4K6syEjNaCAwbWozmwmm1U-H5qVS=w472-h629-no?authuser=0",
-            "alias": "Maca",
-            "info": "Estudiante de música",
+            "nombre": "Luna Cadavid Romero",
+            "imagen": "https://lh3.googleusercontent.com/pw/AP1GczMPmewJfAe0OLudTjFE6hbl17DUYnNCnrSaISHpbTqiXLyeawDJJfH-ClzJGwk1ID3p5wojrf7_mdmiW52yQ558RQp-Vz-Yu-x5wzKO02Z9s4TZZc_4N_1iGXhrZkF2kGtOEHOHPZHyBIZZnqhGG4jO=w698-h893-s-no?authuser=0",
+            "alias": "Tsuki",
+            "info": "Finanzas y unas cuantas cosas más",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "mariakmila2097@gmail.com"
+                    "correo": "lunacadavid.r@gmail.com"
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "@mariacamilavilladarojas",
-                    "enlace": "https://www.instagram.com/mariacamilavilladarojas/"
+                    "instagram": "@tsuki_angel",
+                    "enlace": ""
                 }
             ]
         },
         {
-            "nombre": "Alejandra Noa",
-            "imagen": "https://lh3.googleusercontent.com/pw/AM-JKLVJSN73vgi7rv17MCmAd0LE0REb52QA0RlLgbDA1ZMmsH8gm_PdnBr7qgbSS9og2tKNd0FuONaEOWeV2EIgcfztvCOqC-q9HvIhjkxeO_KRZywj1mTKAUZ-X7sIUDFxuDO7nCDZusBahgcIC56XH6tk=w420-h630-no?authuser=0",
-            "alias": "Noa Alekei",
-            "info": "Estudiante de lingüística y literatura",
+            "nombre": "Dayana Rocio Bello Vega",
+            "imagen": "https://lh3.googleusercontent.com/pw/AP1GczOmg_mSeaMlM3Nfj2BCew0IwOy75H0W3wW1G_0_98wakh_pFDBW1gdq294yBUXC8xzxdIvSUnifr4s8KJgpofxtgKNSa9qajTMBDX2bFLLXdyrMUmlpwoWtXzKCv0AovUHl0l5rg9TD55Yc8e49JwR0=w662-h893-s-no?authuser=0",
+            "alias": "Kamir",
+            "info": "Estudiante de Ingeniería Ambiental",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "lisa12noa@gmail.com"
+                    "correo": "bellovegadayanarocio7@gmail.com"
                 },
                 {
                     "tipo": "Instagram",
-                    "instagram": "@noaalekei",
-                    "enlace": "https://www.instagram.com/noaalekei/?hl=es-la"
+                    "instagram": "kamirdrawings",
+                    "enlace": ""
                 }
             ]
         },
         {
-            "nombre": "Sebastián Achury",
-            "imagen": "https://live.staticflickr.com/65535/51764243577_11e790bc95.jpg",
+            "nombre": "Santiago Garnica Carrillo",
+            "imagen": "https://lh3.googleusercontent.com/pw/AP1GczP8GWCbzFIN_L9kY-BGsEaG9h5BqvwHyIckh9b4t8T2auuZCaRF0LA7tRfg454KtgqhunQGGnFgs44IokykkpX_UEyD49gz0NiZUimryNfXFiSgkoLKwB7S3jAF2BD2OarjjJSa16DokDN_eY_HOyYz=w789-h893-s-no?authuser=0",
+            "alias": "Tatoo",
+            "info": "Sociólogo",
+            "contacto": [
+                {
+                    "tipo": "Correo",
+                    "correo": "sgarnicacarrillo@gmail.com"
+                },
+                {
+                    "tipo": "Instagram",
+                    "instagram": "99Tatoo",
+                    "enlace": ""
+                }
+            ]
+        },
+        {
+            "nombre": "David Rodríguez",
+            "imagen": "https://lh3.googleusercontent.com/pw/AP1GczNLm6mwwY7XaJClpEiJX2xv89dF_7DTCgELPc86pGyVgmch6wgJaxt5Nd4FZWLHbnbj6HMvVpcIloTgZa9Egxwiq0T3Hxo8nPW56Q-Djz2PaBbgm0UfqqVCWjqXcw6B5Lw-FD4hImn4JBeHzHcWhRsq=w669-h893-s-no?authuser=0",
             "alias": "",
-            "info": "Estudiante de ingeniería industrial.",
+            "info": "Estudiante de Ingeniería Electrónica",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "achury392@gmail.com"
+                    "correo": "Davidhrodv@gmail.com"
                 },
                 {
-                    "tipo": "Facebook",
-                    "facebook": "Sebastian Achury",
-                    "enlace": "https://www.facebook.com/sebas.achu64"
+                    "tipo": "Instagram",
+                    "instagram": "@dav_humberto_rv",
+                    "enlace": ""
                 }
             ]
         },
         {
-            "nombre": "Dayanna Peña",
-            "imagen": "https://lh3.googleusercontent.com/pw/AM-JKLVQIyGENQJF1FPHWyLCH-h-BhBGcxjk9BtuKz7WQw9mm8F4IGtx85ntAhahIn7-RFQSJVSvcqADG5M0Y5HKTACPN4i2x0zhc0SkhzTiImod6F_-q3E6e9VIzXntYu1WVbNx7z6aLjjPmDtlQoAAICh7=w471-h629-no?authuser=0",
-            "alias": "Daio",
-            "info": "Autora",
+            "nombre": "Iván Andrés González Ávila",
+            "imagen": "https://lh3.googleusercontent.com/pw/AP1GczMY59GwoFa-L_m9yhwYvsFC92NXtA2Wdt1Om95eOBomN94FvouAYp8X9pIOakvPu0P6oBpk0Enp4enuMSTDe41t_6bTB155M-YKGnFGKK-4599evQlAvpwhI17jfwCwzIk9ykQRbO_necXYWKI3WOar=w501-h893-s-no?authuser=0",
+            "alias": "",
+            "info": "Estudiante de biología",
             "contacto": [
                 {
-                    "tipo": "Correo",
-                    "correo": "dayiiispe@gmail.com"
+                    "tipo": "correo",
+                    "correo": "ivanchisknot16@gmail.com"
                 },
                 {
-                    "tipo": "TikTok",
-                    "tiktok": "@daio_24",
-                    "enlace": "https://www.tiktok.com/@daio_24?"
+                    "tipo": "Instagram",
+                    "instagram": "@iaga_05",
+                    "enlace": ""
                 }
             ]
         },
         {
-            "nombre": "Nicolás Gómez",
-            "imagen": "https://lh3.googleusercontent.com/pw/AM-JKLVCXv42YtyLT2OFbKPKtm1lTfY4-Wu6jnEP-wo9Ixi1iFZdNcMHcu-71zr1bfTKJv4MBtSDSCS4vtf0nbO59apeSsrgnXrSay2TEw3cgR9Z8z3aPKe33SzyJCbmSdJo68hBBsrQLR6qYkeJpsAp8loO=w460-h629-no?authuser=0",
-            "alias": "Tronx-ultra",
-            "info": "Autor",
+            "nombre": "Angie Tatiana Bentham Aldana",
+            "imagen": "https://lh3.googleusercontent.com/pw/AP1GczPAqsokOiDvMFDyL4yfCV1LOEN6p1EJn8ApQpX5Az03z6azJDD3CPU6IYIgNCglylqCi9djEuDWjrC5uLNDuQ5JKtzq9k5yhz22ZeLgRNdQhhG9MO8juIRVo7Rh-DxlrObhXX01OHeVXoz5_URVczUs=w893-h893-s-no?authuser=0",
+            "alias": "Chessire",
+            "info": "Estudiante de Terapia Ocupacional",
             "contacto": [
                 {
-                    "tipo": "Correo",
-                    "correo": "nicolasgoma21@gmail.com"
+                    "tipo": "correo",
+                    "correo": "atbenthamal@gmail.com"
+                },
+                {
+                    "tipo": "Instagram",
+                    "instagram": "@benthamangie",
+                    "enlace": ""
                 }
             ]
         },
