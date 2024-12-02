@@ -1,7 +1,7 @@
 "use strict";
 
 const getData = async () => {
-  return fetch("../baseDeDatos/baulDeRecuerdos.json")
+  return fetch("https://juan-pablo-ean.github.io/proyecto-comics/baseDeDatos/baulDeRecuerdos.json")
     .then((res) => res.json())
     .then((datos) => datos);
 };

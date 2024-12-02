@@ -82,7 +82,7 @@ const crearHtml = async () => {
 }
 
 const consulta = async () => {
-    return fetch("../baseDeDatos/autores.json")
+    return fetch("https://juan-pablo-ean.github.io/proyecto-comics/baseDeDatos/autores.json")
         .then(res => res.json())
         .then(info => info);
 }
