@@ -12,6 +12,7 @@ const crearPortadas = (nombre, titulo, portada) => {
     a.classList.add("comic");
     contenido.classList.add("contenido");
     divImagen.classList.add("divImagen");
+    divImagen.classList.add("divImagenInicio");
     divTitulo.classList.add("titulo");
     a.setAttribute("href", `comic.html?${(nombre.replace(/ /gi, "-")).toLowerCase()}&${((titulo.replace(/ /gi, "-")).normalize("NFD").replace(/[\u0300-\u036f]/g, "")).toLowerCase()}`);
     imagen.setAttribute("src", `${portada}`);
@@ -41,16 +42,16 @@ const efectoFodo = () => {
 }
 
 const consultar = async () => {
-    return fetch("../baseDeDatos/comics.json")
+    return fetch("https://juan-pablo-ean.github.io/proyecto-comics/baseDeDatos/comics.json")
         .then(res => res.json())
         .then(info => info);
 }
 
-window.addEventListener("scroll", () => {
-    if (window.scrollY > window.screen.height - 400) {
-        document.querySelector(".flecha").style.display = "none";
-    }
-});
+// const consultar = async () => {
+//     return fetch("../baseDeDatos/comics.json")
+//         .then(res => res.json())
+//         .then(info => info);
+// }
 
 const input = document.getElementById("busqueda");
 const f404 = document.querySelector(".f404");

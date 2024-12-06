@@ -68,6 +68,10 @@ const ponerPaginas = async author => {
             for (let i = 1; i <= comic.paginas.length; i++) {
                 crearPaginas(comic.paginas[i - 1], evaluarLR(i), author);
             }
+
+            if(comic.materialComplementario.length == 0){
+                document.querySelector(".complementeMaterialDiv").style.display = "none";
+            }
             
             contenedor.innerHTML += `
             <div class="instrucciones" style="text-align: center; display: flex; align-items: center; justify-content: center; height: 650px; color: white; border-top-left-radius:50px; border-bottom-left-radius:50px;">
@@ -85,10 +89,16 @@ const ponerPaginas = async author => {
 }
 
 const obtenerInfo = async () => {
-    return fetch("../baseDeDatos/comics.json")
+    return fetch("https://juan-pablo-ean.github.io/proyecto-comics/baseDeDatos/comics.json")
         .then(res => res.json())
         .then(info => info);
 }
+
+// const obtenerInfo = async () => {
+//     return fetch("../baseDeDatos/comics.json")
+//         .then(res => res.json())
+//         .then(info => info);
+// }
 
 const obtenerNombre = () => {
     let enlace = location.href;

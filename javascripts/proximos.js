@@ -1,10 +1,17 @@
 "use strict";
 
 const consultar = async () => {
-    return fetch("../baseDeDatos/proximos.json")
+    return fetch("https://juan-pablo-ean.github.io/proyecto-comics/baseDeDatos/proximos.json")
         .then(res => res.json())
         .then(datos => datos);
 }
+
+// const consultar = async () => {
+//     return fetch("../baseDeDatos/proximos.json")
+//         .then(res => res.json())
+//         .then(datos => datos);
+// }
+
 
 const contenedor = document.querySelector(".contenedor");
 

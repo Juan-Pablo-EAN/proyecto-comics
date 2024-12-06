@@ -56,21 +56,51 @@
                     <i class="fas fa-bars"></i>
                 </div>
                 <nav id="navBarr">
-                    <ul>
-                        <li>
-                            <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
-                        </li>
-                        <li>
-                            <a href="autores.html"><i class="fas fa-users"></i> Autores</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fas fa-address-card"></i> Quiénes somos</a>
-                        </li>
-                        <li>
-                            <a href="proximamente.html"><i class="fas fa-book-open"></i> Próximamente</a>
-                        </li>
-                    </ul>
+                    <div>
+                        <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
+                    </div>
+                    <div>
+                        <a href="autores.html"><i class="fas fa-users"></i> Autores</a>
+                    </div>
+                    <div>
+                        <a href="#"><i class="fas fa-address-card"></i> Quiénes somos</a>
+                    </div>
+                    <div>
+                        <a href="recuerdos.html"><i class="fas fa-box-open"></i> Baúl de recuerdos</a>
+                    </div>
+                    <div>
+                        <a href="proximamente.html"><i class="fas fa-book-open"></i> Próximamente</a>
+                    </div>
                 </nav>
+            <style>
+                nav#navBarr {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                }
+        
+                nav#navBarr div {
+                    flex: 1 1 auto;
+                    text-align: center;
+                    padding: 10px;
+                }
+        
+                nav#navBarr a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 1.2em;
+                }
+        
+                @media (max-width: 768px) {
+                    nav#navBarr {
+                        flex-direction: column;
+                    }
+        
+                    nav#navBarr div {
+                        padding: 5px;
+                    }
+                }
+            </style>
             </div>
         </header>
         <section>
@@ -121,6 +151,9 @@
                             <a href="quienessomos.html">Quiénes somos</a>
                         </li>
                         <li>
+                            <a href="recuerdos.html">Baúl de recuerdos</a>
+                        </li>
+                        <li>
                             <a href="proximamente.html">Próximamente</a>
                         </li>
                     </ul>
@@ -134,10 +167,14 @@
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:pascitto.comics@gmail.com">pascitto.comics@gmail.com</a>
+                            <a href="mailto:pascitto.comics@gmail.com">
+                                <i class="fas fa-envelope"></i> @pascitto.comics pascitto.comics@gmail.com
+                            </a>
                         </li>
                         <li>
-                            <a href="tel:3182200863">Teléfono</a>
+                            <a href="https://youtube.com/@pascittocomics7183?si=dUouNM5jMZ9zDXK2" target="_blank">
+                                <i class="fab fa-youtube"></i> Páscitto Cómics
+                            </a>
                         </li>
                     </ul>
                 </div>
