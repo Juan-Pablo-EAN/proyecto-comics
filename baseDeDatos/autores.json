@@ -30,7 +30,7 @@
                 {
                     "tipo": "Instagram",
                     "instagram": "@tsuki_angel",
-                    "enlace": ""
+                    "enlace": "https://www.instagram.com/tsuki_angel"
                 }
             ]
         },
@@ -47,7 +47,7 @@
                 {
                     "tipo": "Instagram",
                     "instagram": "kamirdrawings",
-                    "enlace": ""
+                    "enlace": "https://www.instagram.com/kamirdrawings"
                 }
             ]
         },
@@ -64,7 +64,7 @@
                 {
                     "tipo": "Instagram",
                     "instagram": "99Tatoo",
-                    "enlace": ""
+                    "enlace": "https://www.instagram.com/99Tatoo"
                 }
             ]
         },
@@ -81,7 +81,7 @@
                 {
                     "tipo": "Instagram",
                     "instagram": "@dav_humberto_rv",
-                    "enlace": ""
+                    "enlace": "https://www.instagram.com/dav_humberto_rv"
                 }
             ]
         },
@@ -98,7 +98,7 @@
                 {
                     "tipo": "Instagram",
                     "instagram": "@iaga_05",
-                    "enlace": ""
+                    "enlace": "https://www.instagram.com/iaga_05"
                 }
             ]
         },
@@ -115,19 +115,19 @@
                 {
                     "tipo": "Instagram",
                     "instagram": "@benthamangie",
-                    "enlace": ""
+                    "enlace": "https://www.instagram.com/benthamangie"
                 }
             ]
         },
         {
             "nombre": "Samuel Arista Rubiano Mora",
-            "imagen": "",
+            "imagen": "https://lh3.googleusercontent.com/pw/AP1GczP0e8DYABci-048TlBFFcdz4lgZCGJzgIJyTnOXA7Ml1LIMVITMQXAIB9UDDE3samttcfKIX5acCm51NklDgOvsJ5umYb5so-Q9IOhvQi0q67TqmJYmPaZm7FqTwno6RVJbv_rXjZXz93FuPvVmYiUY=w620-h775-s-no?authuser=0",
             "alias": "Mandarino",
             "info": "Estudiante de Estudios Literarios",
             "contacto": [
                 {
                     "tipo": "Correo",
-                    "correo": "Estudiante de Estudios Literarios"
+                    "correo": "arista.rubiano.364@gmail.com"
                 },
                 {
                     "tipo": "Instagram",

@@ -87,6 +87,13 @@ const consulta = async () => {
         .then(info => info);
 }
 
+// const consulta = async () => {
+//     return fetch("../baseDeDatos/autores.json")
+//         .then(res => res.json())
+//         .then(info => info);
+// }
+
+
 const iconoNombre = () => {
     return "fas fa-user";
 }

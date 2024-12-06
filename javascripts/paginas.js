@@ -94,6 +94,12 @@ const obtenerInfo = async () => {
         .then(info => info);
 }
 
+// const obtenerInfo = async () => {
+//     return fetch("../baseDeDatos/comics.json")
+//         .then(res => res.json())
+//         .then(info => info);
+// }
+
 const obtenerNombre = () => {
     let enlace = location.href;
     let ubicacion = enlace.indexOf("?");
