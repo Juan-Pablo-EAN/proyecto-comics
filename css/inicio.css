@@ -64,6 +64,10 @@ section {
     width: 100%; border-radius: 5px;
 }
 
+.contenido .divImagenInicio img {
+    height: 500px;
+}
+
 .contenido .titulo {
     text-align: center; font-size: x-large; text-decoration: unset; color: black; font-weight: bold; padding: 10px 0 10px 0; background-position: center; background-size: cover; color: white;
 }

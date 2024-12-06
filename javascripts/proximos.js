@@ -6,6 +6,13 @@ const consultar = async () => {
         .then(datos => datos);
 }
 
+// const consultar = async () => {
+//     return fetch("../baseDeDatos/proximos.json")
+//         .then(res => res.json())
+//         .then(datos => datos);
+// }
+
+
 const contenedor = document.querySelector(".contenedor");
 
 const crearPortadas = (titulo, portada, sinopsis) => {
