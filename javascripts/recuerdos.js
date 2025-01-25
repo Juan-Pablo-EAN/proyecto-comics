@@ -6,6 +6,12 @@ const getData = async () => {
     .then((datos) => datos);
 };
 
+// const getData = async () => {
+//   return fetch("../baseDeDatos/baulDeRecuerdos.json")
+//     .then((res) => res.json())
+//     .then((datos) => datos);
+// };
+
 const createCardsComics = (comic) => {
   comic.map((comic) => {
     createOneCard(comic);
