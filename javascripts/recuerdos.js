@@ -1,16 +1,10 @@
 "use strict";
 
 const getData = async () => {
-  return fetch("https://juan-pablo-ean.github.io/proyecto-comics/baseDeDatos/baulDeRecuerdos.json")
+  return fetch("https://pascittocomicsapi.azurewebsites.net/data/getChestOfMemories")
     .then((res) => res.json())
     .then((datos) => datos);
 };
-
-// const getData = async () => {
-//   return fetch("../baseDeDatos/baulDeRecuerdos.json")
-//     .then((res) => res.json())
-//     .then((datos) => datos);
-// };
 
 const createCardsComics = (comic) => {
   comic.map((comic) => {

@@ -54,10 +54,10 @@ const paraMoviles = () => {
     return html;
 }
 
-const ponerPaginas = async author => {
+const ponerPaginas = async (author, id) => {
     contenedor.innerHTML = (window.screen.width > 600) ? paraPC() : paraMoviles();
 
-    const inform = await obtenerInfo();
+    const inform = await obtenerInfo(id);
 
     inform.comics.map(comic => {
         if((comic.nombre).toLowerCase() === author){
@@ -88,17 +88,11 @@ const ponerPaginas = async author => {
 
 }
  
-const obtenerInfo = async () => {
-    return fetch("https://juan-pablo-ean.github.io/proyecto-comics/baseDeDatos/comics.json")
+const obtenerInfo = async id => {
+    return fetch("https://pascittocomicsapi.azurewebsites.net/data/getComicsById/" + id)
         .then(res => res.json())
         .then(info => info);
 }
-
-// const obtenerInfo = async () => {
-//     return fetch("../baseDeDatos/comics.json")
-//         .then(res => res.json())
-//         .then(info => info);
-// }
 
 const obtenerNombre = () => {
     let enlace = location.href;
@@ -106,8 +100,9 @@ const obtenerNombre = () => {
     let hasta = enlace.indexOf("&");
     enlace = enlace.substring(ubicacion + 1, hasta);
     enlace = enlace.replace(/-/gi, " ");
-    enlace = enlace.replace(/%C3%B1/gi, "ñ");
-    ponerPaginas(enlace);
+    const nickname = enlace.replace(/%C3%B1/gi, "ñ");
+    let id = location.href.split("&")[1].split("=")[1];
+    ponerPaginas(nickname, id);
 }
 
 obtenerNombre();
