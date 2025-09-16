@@ -2,7 +2,7 @@
 
 const contenedor = document.querySelector(".contenedor");
 
-const crearPortadas = (nombre, titulo, portada) => {
+const crearPortadas = (id, nombre, titulo, portada) => {
     const a = document.createElement("A");
     const contenido = document.createElement("DIV");
     const divImagen = document.createElement("DIV");
@@ -14,7 +14,7 @@ const crearPortadas = (nombre, titulo, portada) => {
     divImagen.classList.add("divImagen");
     divImagen.classList.add("divImagenInicio");
     divTitulo.classList.add("titulo");
-    a.setAttribute("href", `comic.html?${(nombre.replace(/ /gi, "-")).toLowerCase()}&${((titulo.replace(/ /gi, "-")).normalize("NFD").replace(/[\u0300-\u036f]/g, "")).toLowerCase()}`);
+    a.setAttribute("href", `comic.html?${(nombre.replace(/ /gi, "-")).toLowerCase()}&id=${id}`);
     imagen.setAttribute("src", `${portada}`);
     imagen.setAttribute("alt", `Portada de ${titulo}`);
     span.textContent = titulo;
@@ -29,7 +29,7 @@ const crearPortadas = (nombre, titulo, portada) => {
 const ponerPortadas = async () => {
     const datos = await consultar();
     datos.comics.map(autor => {
-        crearPortadas(autor.nombre, autor.titulo, autor.paginas[0]);
+        crearPortadas(autor.id, autor.nombre, autor.titulo, autor.paginas[0]);
     });
 }
 
@@ -42,16 +42,10 @@ const efectoFodo = () => {
 }
 
 const consultar = async () => {
-    return fetch("https://juan-pablo-ean.github.io/proyecto-comics/baseDeDatos/comics.json")
+    return fetch("https://pascittocomicsapi.azurewebsites.net/data/getComics")
         .then(res => res.json())
         .then(info => info);
 }
-
-// const consultar = async () => {
-//     return fetch("../baseDeDatos/comics.json")
-//         .then(res => res.json())
-//         .then(info => info);
-// }
 
 const input = document.getElementById("busqueda");
 const f404 = document.querySelector(".f404");
