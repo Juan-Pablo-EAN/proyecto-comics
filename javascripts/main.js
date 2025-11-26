@@ -42,7 +42,7 @@ const efectoFodo = () => {
 }
 
 const consultar = async () => {
-    return fetch("https://pascittocomicsapi.azurewebsites.net/data/getComics")
+    return fetch("https://pascitto-comics.azurewebsites.net/data/getComics")
         .then(res => res.json())
         .then(info => info);
 }

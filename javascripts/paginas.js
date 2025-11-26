@@ -89,7 +89,7 @@ const ponerPaginas = async (author, id) => {
 }
  
 const obtenerInfo = async id => {
-    return fetch("https://pascittocomicsapi.azurewebsites.net/data/getComicsById/" + id)
+    return fetch("https://pascitto-comics.azurewebsites.net/data/getComicsById/" + id)
         .then(res => res.json())
         .then(info => info);
 }

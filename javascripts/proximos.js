@@ -1,7 +1,7 @@
 "use strict";
 
 const consultar = async () => {
-    return fetch("https://pascittocomicsapi.azurewebsites.net/data/getShortlyComics")
+    return fetch("https://pascitto-comics.azurewebsites.net/data/getShortlyComics")
         .then(res => res.json())
         .then(datos => datos);
 }
