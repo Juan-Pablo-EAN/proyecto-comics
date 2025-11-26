@@ -82,7 +82,7 @@ const crearHtml = async () => {
 }
 
 const consulta = async () => {
-    return fetch("https://pascittocomicsapi.azurewebsites.net/data/getAuthors")
+    return fetch("https://pascitto-comics.azurewebsites.net/data/getAuthors")
         .then(res => res.json())
         .then(info => info);
 }
