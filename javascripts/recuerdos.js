@@ -1,7 +1,7 @@
 "use strict";
 
 const getData = async () => {
-  return fetch("https://pascittocomicsapi.azurewebsites.net/data/getChestOfMemories")
+  return fetch("https://pascitto-comics.azurewebsites.net/data/getChestOfMemories")
     .then((res) => res.json())
     .then((datos) => datos);
 };
